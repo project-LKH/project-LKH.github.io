@@ -1,0 +1,37 @@
+body{
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/4fdfe8139521263.623108d776a89.png");
+    background-size: 100% 100vh;
+    padding :10px;
+    color:greenyellow;
+}
+
+header{
+    background-color:black;
+    box-shadow:2px 2px 2px 2px #adff2f;
+    display:grid;
+    justify-content: center;
+    padding:2px;
+}
+div{
+   
+    
+}
+
+main{
+    background-color:#000000df ;
+    height:80vh;
+    box-shadow:2px 2px 2px 2px #adff2f;
+    padding:1em;
+    margin:1em
+}
+.project-LKH{
+    
+   
+   
+    
+}
+a{
+   color: greenyellow;
+   text-decoration: none; 
+   margin:0 1em 0 1em ;
+}

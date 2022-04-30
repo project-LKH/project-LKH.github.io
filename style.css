@@ -12,10 +12,8 @@ header{
     justify-content: center;
     padding:2px;
 }
-div{
-   
-    
-}
+/* div{ 
+} */
 
 main{
     background-color:#000000df ;
@@ -24,12 +22,8 @@ main{
     padding:1em;
     margin:1em
 }
-.project-LKH{
-    
-   
-   
-    
-}
+/* .project-LKH{ 
+} */
 a{
    color: greenyellow;
    text-decoration: none; 

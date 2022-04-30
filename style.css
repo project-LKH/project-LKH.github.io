@@ -1,18 +1,25 @@
 body{
     background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/4fdfe8139521263.623108d776a89.png");
-    background-size: 100% 100vh;
+    background-size: 100% 100%;
     padding :10px;
     color:greenyellow;
+    display:grid;
+    grid-template-rows: 1fr 3fr 1fr;
+    background-repeat:no-repeat;
 }
 
 header{
-    background-color:black;
+    background-color:#000000df;
     box-shadow:2px 2px 2px 2px #adff2f;
     display:grid;
     justify-content: center;
     padding:2px;
-    height:10vh;
+    height:15vh;
     align-content: center;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 2fr 1fr;
+    
+    
 }
 /* div{ 
 } */
@@ -22,15 +29,25 @@ main{
     height:80vh;
     box-shadow:2px 2px 2px 2px #adff2f;
     padding:1em;
-    margin:1em
+   
 }
 /* .project-LKH{ 
 } */
 a{
-   color: greenyellow;
-   text-decoration: none; 
-   margin:0 1em 0 1em ;
+   
+    color: greenyellow;
+    text-decoration: none; 
+    margin:0 1em 0 1em ;
+    
+   
 }
 .skills-div{
     height:40%;
+}
+.logo{
+    /* position:relative; */
+    border-radius: 50%;
+    width:90px;
+    margin:5px;
+    border:2px white;
 }

@@ -11,6 +11,8 @@ header{
     display:grid;
     justify-content: center;
     padding:2px;
+    height:10vh;
+    align-content: center;
 }
 /* div{ 
 } */
@@ -28,4 +30,7 @@ a{
    color: greenyellow;
    text-decoration: none; 
    margin:0 1em 0 1em ;
+}
+.skills-div{
+    height:40%;
 }

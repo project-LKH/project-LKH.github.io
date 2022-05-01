@@ -8,12 +8,7 @@
      grid-template-rows: 1fr 2fr 1fr;
      padding:0;
  }
-.logo{
-    width: 120px;
-    height:110px;
-    border-radius:50%; 
-}
-header{
+ header{
     background-size:cover;
     background-color:rgba(0, 0, 0, 0.767);
     display:grid;
@@ -24,25 +19,18 @@ header{
     align-content:center;
     gap:1em;
 }
-.about-me{
-    /* background-color:rgba(58, 58, 58, 0.767); */
-    background-color:rgb(102, 27, 121) ;
-    background-size:cover;
-    border-radius:10%;
-    margin:1em;
-    padding:1em;
+.logo-div{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+    align-items: center;
+    gap:1em;
+    background-color:rgba(102, 27, 121,0.5) ;
 }
-.skills-div{
-    /* background-color:rgba(58, 58, 58, 0.767);; */
-    background-color:rgb(102, 27, 121) ;
-    border-radius:10%;
-    margin:1em;
-    padding:1em;
-    
-}
-footer{
-    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/4fdfe8139521263.623108d776a89.png");
-    background-size:cover;
+.logo{
+    width: 120px;
+    height:110px;
+    border-radius:50%; 
 }
 .nav-links-div{
     
@@ -55,21 +43,41 @@ footer{
     grid-template-columns: 1fr .5fr 1fr .5fr 1fr;
     margin:0 1em 0 1em;
 }
-
 a{
-    color:greenyellow;
-    /* margin:.5em; */
+    width:fit-content;
+    color:black;
+    margin:0 1em 0 1em;
     text-decoration: none;
+    background-color:greenyellow;
+    border-radius:15%;
+    padding:.5em;
+}
+.about-me{
+    /* background-color:rgba(58, 58, 58, 0.767); */
+    background-color:rgba(102, 27, 121,0.5) ;
+    background-size:cover;
+    border-radius:10%;
+    margin:1em;
+    padding:1em;
+}
+.skills-div{
+    /* background-color:rgba(58, 58, 58, 0.767);; */
+    background-color:rgba(102, 27, 121,0.5) ;
+    border-radius:10%;
+    margin:1em;
+    padding:1em;
+    
+}
+footer{
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/4fdfe8139521263.623108d776a89.png");
+    background-size:cover;
 }
 .portfolio-div{
     display:grid;
     grid-template-columns: 1fr 1fr;
-}
-.logo-div{
-    display:grid;
-    grid-template-columns: 1fr 2fr;
     justify-content: center;
-    align-items: center;
-    gap:1em;
-    background-color:rgb(102, 27, 121) ;
 }
+
+
+
+

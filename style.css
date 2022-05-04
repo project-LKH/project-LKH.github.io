@@ -1,62 +1,220 @@
- body{
-     width: 100%;
+body{
+    color:greenyellow;
+    /* background: #000; */
+    background-color:rgb(79, 13, 95);
+    
+    
+}
+container{
+    width:cover;
+    height:auto;
+    display:grid;
+    grid-template-rows: 100vh 100vh 100vh;
+    justify-items: center;
+    align-items:center;
+    gap:11em;
+}
+header{
+    
+    display:grid;
+    height:100vh;
+    width:100vw;
+    background-color:rgba(102, 27, 121,0.5) ;
+    gap:2em;
+    border-radius:100px;
+}
+.logo-div{
+    background-color:rgb(102, 27, 121) ;
+    display:grid;
+    justify-items: center;
+    align-items: center;
+    justify-items: center;
+    width:100%;
+    border-radius: 25%;
+    
+}
+.logo{
+    margin-top: 1em;
+    width: 80%;
+    border-radius:30%;
+}
+.nav-links-div{
+    height:100%;
+    display:grid;
+    grid-template-rows: repeat(3,1fr);
+    justify-items:center;
+    align-content: center;
+    text-align: center;
+    font-size:1.5em;
+   margin:1em;
+   padding:1em;
+  
+}
+.nav-link{
+    display:grid;
+    border-radius: 999px;
+    width:50%;
+    height:80%;
+    color:purple;
+    text-decoration:none;
+    justify-content:center;
+    align-content:center;
+    font-size:2em;
+    background-color:greenyellow;
+    padding:12px 40px;
+    text-shadow:0 1px 0 rgba(0,0,0,3);
+    border:1px solid #000;
+    border-bottom:1px solid rgb(113, 255, 47);
+    box-shadow:inset 0 1px 0 0 rgba(255,255,255,.6), inset 0 -1px 0 0 rgba(0,0,0,.4);
+    cursor:pointer;
+    background:linear-gradient(to bottom,greenyellow,black);
+
+}  
+main{
+    font-size:2em;
+    width :100%;
+    height: 100vh;
+    display:grid;
+    background-color:black;
+    background-size:contain;
+}
+.about-me{
+    height:100%;
+    padding:1em;
+    margin:1em;
+    background-color:rgba(102, 27, 121,0.5 );
+    border-radius:10%;
+}
+.skills-div{
+    padding:1em;
+    margin:1em;
+    background-color:rgba(102, 27, 121,0.5) ;
+    border-radius:10%;
+}
+footer{
+    width:100%;
+    height:100%;
+    display:grid;
+    grid-template-rows: 2fr .5fr;
+   
+}
+.porfolio-div{
+    display:grid;
+    width:100%;
+    height:100%; 
+    align-self:center;
+    justify-self:center;
+    grid-template-rows: 1fr 1fr;
+    
+    
+}
+#portfolio{
+    
+    width:100vw;
+    height:100%;
+    padding:1em;
+    font-size:3em;
+    
+    
+}
+.portfolio-links-div{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.contact-div{
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/1400/8fa68a139521263.623108d775834.png");
+    width:100vw;
+    height:100%;
+    padding:1em;
+    font-size:2em;
+    background-color:rgb(79, 13, 95);
+    background-size:cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body{
+     width: 100vw;
      height:100vh;
      background-color:black;
-     background-size:100vh;
      color: greenyellow;
      display:grid;
      grid-template-rows: 1fr 2fr 1fr;
-     padding:0;
-     gap:1em;
- }
- header{
-     height:max-content;
-     background-size:auto;
+}
+header {
+    width:100vw;
+     height:100vh;  
      background-color:rgba(0, 0, 0, 0.767);
      display:grid;
-     grid-template-columns: auto;
-     
-     
      justify-content:center;
      align-content:center;
-     gap:1em;
+    
     }
     .logo-div{
-        display:grid;
-    grid-template-columns: 1fr 2fr;
+    
+    display:grid;
+    grid-template-rows: 1fr .5fr;
+    
     justify-content: center;
-    align-items: center;
-    gap:1em;
+    align-content: center;
+   
     background-color:rgba(102, 27, 121,0.5) ;
+    
 }
 .logo{
+    justify-self: center;
     width: 120px;
     height:110px;
     border-radius:50%; 
 }
 .nav-links-div{
-    
-    
+    width:100vw;
     display:grid;
-    
     justify-content: center;
     align-content: center;
-    /* background-color:aliceblue; */
-    grid-template-columns: 1fr .5fr 1fr .5fr 1fr;
-    margin:0 1em 0 1em;
+    grid-template-columns: 1fr .1fr 1fr .1fr 1fr;
+    padding:1em;
 }
 a{
-    width:fit-content;
+    justify-self: center;
+    
+    text-align:center;
     color:black;
-    margin:0 1em 0 1em;
     text-decoration: none;
     background-color:greenyellow;
-    border-radius:15%;
-    padding:.5em;
+    border-radius:25%;
+    
 }
 main{
-    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/4fdfe8139521263.623108d776a89.png");
-  background-size:cover;  
+    
+    width:100vw;
+    height:100vh;
+ 
 }
 
 .about-me{
@@ -73,20 +231,28 @@ main{
     
 }
 footer{
-   
-    /* background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/4fdfe8139521263.623108d776a89.png"); */
+    height:100vh;
     background-size:cover; 
-    background-color:rgba(102, 27, 121,0.5) ;
+    justify-content:end;
 }
 .portfolio-div{
+    height:100vh;
     display:grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
+    background-color:rgba(102, 27, 121,0.5) ;
+   
+    grid-template-columns: 1fr 1fr;  
 }
 .purple-background{
-    background-color:rgba(102, 27, 121,0.5) ;
     background-size:cover;
 }
-
-
+.contact-div{
+    background-color:rgba(102, 27, 121,0.5) ;
+}
+.portfolio-link{
+    width:max-content;
+    align-self: center;
+    justify-self: center;
+    padding:5px;
+    
+} */
 

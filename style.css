@@ -1,260 +1,127 @@
-body{
-    color:greenyellow;
-    /* background: #000; */
-    background-color:rgb(79, 13, 95);
-    
-    
+* {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
-container{
-    width:cover;
-    height:auto;
-    display:grid;
-    grid-template-rows: 100vh 100vh 100vh;
-    justify-items: center;
-    align-items:center;
-    gap:11em;
+body {
+  height: 100vh;
+  background-color: black;
+  color: white;
 }
-header{
-    
-    display:grid;
-    height:100vh;
-    width:100vw;
-    background-color:rgba(102, 27, 121,0.5) ;
-    gap:2em;
-    border-radius:100px;
-}
-.logo-div{
-    background-color:rgb(102, 27, 121) ;
-    display:grid;
-    justify-items: center;
-    align-items: center;
-    justify-items: center;
-    width:100%;
-    border-radius: 25%;
-    
-}
-.logo{
-    margin-top: 1em;
-    width: 80%;
-    border-radius:30%;
-}
-.nav-links-div{
-    height:100%;
-    display:grid;
-    grid-template-rows: repeat(3,1fr);
-    justify-items:center;
-    align-content: center;
-    text-align: center;
-    font-size:1.5em;
-   margin:1em;
-   padding:1em;
-  
-}
-.nav-link{
-    display:grid;
-    border-radius: 999px;
-    width:50%;
-    height:80%;
-    color:purple;
-    text-decoration:none;
-    justify-content:center;
-    align-content:center;
-    font-size:2em;
-    background-color:greenyellow;
-    padding:12px 40px;
-    text-shadow:0 1px 0 rgba(0,0,0,3);
-    border:1px solid #000;
-    border-bottom:1px solid rgb(113, 255, 47);
-    box-shadow:inset 0 1px 0 0 rgba(255,255,255,.6), inset 0 -1px 0 0 rgba(0,0,0,.4);
-    cursor:pointer;
-    background:linear-gradient(to bottom,greenyellow,black);
-
-}  
-main{
-    
-    font-size:2em;
-    width :100%;
-    height: 100vh;
-    display:grid;
-    background-color:black;
-    background-size:contain;
-    border-radius: 30px;
-}
-.about-me{
-    height:100%;
-    padding:1em;
-    margin:1em;
-    background-color:rgba(102, 27, 121,0.5 );
-    border-radius:10%;
-}
-.skills-div{
-    padding:1em;
-    margin:1em;
-    background-color:rgba(102, 27, 121,0.5) ;
-    border-radius:10%;
-}
-footer{
-    width:100%;
-    height:100%;
-    display:grid;
-    grid-template-rows: 2fr .5fr;
-   
-}
-.porfolio-div{
-    display:grid;
-    width:100%;
-    height:100%; 
-    align-self:center;
-    justify-self:center;
-    grid-template-rows: 1fr 1fr;
-    
-    
-}
-#portfolio{
-    
-    width:100vw;
-    height:100%;
-    padding:1em;
-    font-size:3em;
-    
-    
-}
-.portfolio-links-div{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-}
-.contact-div{
-    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/1400/8fa68a139521263.623108d775834.png");
-    width:100vw;
-    height:100%;
-    padding:1em;
-    font-size:2em;
-    background-color:rgb(79, 13, 95);
-    background-size:cover;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* body{
-     width: 100vw;
-     height:100vh;
-     background-color:black;
-     color: greenyellow;
-     display:grid;
-     grid-template-rows: 1fr 2fr 1fr;
+container {
+  display: grid;
+  grid-template-rows: 0.5fr 4fr 0.5fr;
+  padding: 1em;
+  background-color: grey;
 }
 header {
-    width:100vw;
-     height:100vh;  
-     background-color:rgba(0, 0, 0, 0.767);
-     display:grid;
-     justify-content:center;
-     align-content:center;
-    
-    }
-    .logo-div{
-    
-    display:grid;
-    grid-template-rows: 1fr .5fr;
-    
-    justify-content: center;
-    align-content: center;
-   
-    background-color:rgba(102, 27, 121,0.5) ;
-    
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  background-color: #081622;
+  align-content: center;
+  justify-content: center;
 }
-.logo{
-    justify-self: center;
-    width: 120px;
-    height:110px;
-    border-radius:50%; 
+.logo {
+  text-decoration: underline;
+  font-size: x-large;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  grid-column: 3/11;
+  grid-row: 1/3;
 }
-.nav-links-div{
-    width:100vw;
-    display:grid;
-    justify-content: center;
-    align-content: center;
-    grid-template-columns: 1fr .1fr 1fr .1fr 1fr;
-    padding:1em;
+#logo {
+  text-align: center;
 }
-a{
-    justify-self: center;
-    
-    text-align:center;
-    color:black;
-    text-decoration: none;
-    background-color:greenyellow;
-    border-radius:25%;
-    
-}
-main{
-    
-    width:100vw;
-    height:100vh;
- 
+.nav {
+  column-gap: 1.2em;
+  grid-column: 2/12;
+  grid-row: 3/4;
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  grid-template-columns: repeat(3, 1fr);
 }
 
-.about-me{
-    
-    background-size:cover;
-    border-radius:10%;
-    margin:1em;
-    padding:1em;
+.nav-link {
+  padding: 0.5em;
+  text-align: center;
+  border: 2px solid skyblue;
+  font-size: large;
+  color: white;
 }
-.skills-div{
-    border-radius:10%;
-    margin:1em;
-    padding:1em;
-    
+main {
+  display: grid;
+  background-color: #0c1f31;
+  align-content: center;
+  justify-content: center;
+  grid-template-rows: repeat(16, 1fr);
+  grid-template-columns: repeat(16, 1fr);
 }
-footer{
-    height:100vh;
-    background-size:cover; 
-    justify-content:end;
+.card {
+  background-color: rgba(1, 28, 51, 0.774);
+  grid-column: 4/14;
+  grid-row: 4/14;
+  box-shadow: 12px 20px 10px black;
+  border: 2px solid white;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 1fr);
 }
-.portfolio-div{
-    height:100vh;
-    display:grid;
-    background-color:rgba(102, 27, 121,0.5) ;
-   
-    grid-template-columns: 1fr 1fr;  
+.card__front {
+  grid-column: 1/5;
+  grid-row: 1/5;
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(4, 1fr);
 }
-.purple-background{
-    background-size:cover;
+.card__title {
+  /* background-color: aqua; */
+  grid-column: 1/5;
+  grid-row: 1/2;
+  text-align: center;
 }
-.contact-div{
-    background-color:rgba(102, 27, 121,0.5) ;
+.card__content {
+  grid-column: 1/5;
+  grid-row: 2/7;
 }
-.portfolio-link{
-    width:max-content;
-    align-self: center;
-    justify-self: center;
-    padding:5px;
-    
-} */
+.card__back {
+  grid-column: 1/5;
+  grid-row: 1/5;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+}
 
+footer {
+  display: grid;
+  background-color: #081622;
+  align-content: center;
+  justify-content: center;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+.contact {
+  text-align: center;
+  grid-column: 2/10;
+  grid-row: 1/4;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+}
+.contact__title {
+  grid-column: 2/12;
+  grid-row: 1/3;
+}
+.contact__direct {
+  grid-column: 2/6;
+  grid-row: 4/6;
+}
+.contact__socials {
+  grid-column: 8/12;
+  grid-row: 4/6;
+}

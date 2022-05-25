@@ -11,13 +11,19 @@
           <h1 id="logo">L K Henry</h1>
         </div>
         <div class="nav">
-          <a class="nav-link" href="#about-me" id="about-me-link">About me</a>
-          <a class="nav-link" href="#skills" id="skills-link">Skills</a>
-          <a class="nav-link" href="#portfolio">Resume</a>
+          <button
+            class="nav-link about"
+            onclick="showAboutconst()"
+            id="about-me-link"
+          >
+            About me
+          </button>
+          <button class="nav-link skills" id="skills-link">Skills</button>
+          <button class="nav-link" href="#portfolio">Resume</button>
         </div>
       </header>
       <main>
-        <div class="card">
+        <div class="card" id="card">
           <div class="card__front">
             <div class="card__title"><h1>About me</h1></div>
             <div class="card__content">

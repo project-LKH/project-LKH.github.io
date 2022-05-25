@@ -6,7 +6,7 @@
   box-sizing: border-box;
   text-decoration: none;
 }
-:focus {
+*:focus {
   outline: none;
 }
 body {
@@ -17,7 +17,7 @@ body {
 container {
   display: grid;
   grid-template-rows: 0.5fr 4fr 0.5fr;
-  padding: 1em;
+  /* padding: 1em; */
   background-color: grey;
 }
 header {
@@ -51,6 +51,7 @@ header {
 }
 
 .nav-link {
+  background-color: #081622;
   padding: 0.5em;
   text-align: center;
   border: 2px solid skyblue;
@@ -63,8 +64,6 @@ header {
   box-shadow: 0 0 0.7em 0 skyblue;
   text-shadow: 0 0 0.7em 0 skyblue;
   background-color: #0c1f31;
-  /* color: skyblue; */
-  /* padding: 1em; */
 }
 main {
   display: grid;
@@ -91,6 +90,19 @@ main {
   transform-style: preserve-3d;
   transition: 0.5s ease;
 }
+.card::after {
+  border-bottom-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+  position: absolute;
+  grid-column: span 4;
+  background-color: rgb(200, 20, 255);
+  content: "";
+  top: 105%;
+  transform: perspective(0.8em) rotatex(12deg);
+  height: 3em;
+  width: 100%;
+  filter: blur(0.8em);
+}
 .card__front {
   backface-visibility: hidden;
   grid-column: 1/5;
@@ -101,14 +113,11 @@ main {
 }
 
 .card__title {
-  /* background-color: aqua; */
   grid-column: 1/5;
   grid-row: 1/2;
   text-align: center;
 }
-button {
-  background-color: #081622;
-}
+
 .card__content {
   grid-column: 1/5;
   grid-row: 2/7;

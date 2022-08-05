@@ -1,0 +1,48 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color:white;
+}
+h1 {
+  font-size: 300%;
+  text-decoration: 2px underline red;
+}
+.who {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#playerNo {
+  font-size: 300%;
+}
+.board {
+  border-radius: 25px;
+  width: 400px;
+  height: 400px;
+  background-color: brown;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 1em;
+  padding: 1em;
+}
+.block {
+    box-shadow: 1px 1px 50px 10px black;
+  border-radius: 25px;
+  background-color: blue;
+  font-size: 600%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+#winner{
+  display:none;
+  font-size: 300%;
+  text-align: center;
+  text-justify: center;
+}

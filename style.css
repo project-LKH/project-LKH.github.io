@@ -72,6 +72,11 @@ section {
   height: 100vh;
   width: 100%;
 }
+hr{
+  position:relative;
+  grid-row:-1;
+  grid-column:1/-1;
+}
 .title {
   text-align: center;
   font-size: 3em;

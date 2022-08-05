@@ -35,7 +35,7 @@ header {
   font-size: 3.5em;
 }
 nav {
-  font-size: 1em;
+  font-size: 1.5em;
   grid-row: 1;
   grid-column: 1/-1;
   display: flex;
@@ -48,7 +48,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  font-size: 1.2em;
+  font-size: 1.7em;
   color: red;
   text-decoration: underline;
   
@@ -155,7 +155,7 @@ section {
 }
 @media screen and (orientation: landscape) {
   nav {
-    font-size: 1.5em;
+    font-size: 1em;
   }
   .heading {
     font-size: 3em;

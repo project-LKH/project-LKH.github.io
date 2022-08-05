@@ -5,155 +5,71 @@
     <title>L K Henry</title>
   </head>
   <body>
-    
-      <header>
-        <img class="home-img" src="./images/mereading.png" />
-        <h1 class="heading name">L K Henry</h1>
-        <div class="nav">
-          <a href="#about-me">about me</a>
-          <a href="#projects">projects</a>
-          <a href="#contact">contact</a>
-        </div>
-      </header>
-      <main>
-        <button onclick="topFunction()" id="topBtn" class="topBtn" title="scroll to top">UP</button>
-        <h1 class="heading about-me" id="about-me">About Me</h1>
-        <div class="me-paragraph">
-          <img class="meinlaptop" src="./images/meinalaptop.png" />
-          <p class="about-me-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id a quos
-            vero beatae eveniet minima excepturi fugit expedita placeat, magnam
-            accusantium voluptatem esse. Cumque ullam aut recusandae aliquam
-            culpa veniam!
+    <header class="tengrid">
+      <nav>
+        <a href="#About-me">about me</a>
+        <a href="#skills">skills</a>
+        <a href="#projects">projects</a>
+        <a href="#contact">contact</a>
+      </nav>
+      <h1 class="heading">L K Henry</h1>
+      <h2 class="sub-heading">web developer</h2>
+    </header>
+    <hr />
+    <main>
+      <section class="tengrid" id="About-me">
+        <h1 class="title">About Me</h1>
+        <div class="bigCard tengrid">
+          <img src="./images/meinalaptop.png" class="about-img" />
+          <p class="about-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Consequuntur, porro dolores id odio voluptatum dignissimos possimus
+            dicta nam ex eveniet corrupti eaque ipsam, vitae, reprehenderit
+            optio assumenda beatae architecto. Distinctio!
           </p>
         </div>
-        <h1 class="heading skills">skills</h1>
-        <img class="language" src="./images/css-3.svg" />
-        <img class="language" src="./images/javascript-1.svg" />
-        <img class="language" src="./images/html-1.svg" />
-      </main>
-      <footer>
-        <h1 class="heading project-heading" id="projects">projects</h1>
-        <div class="project first">Project</div>
-        <div class="project second">Project</div>
-        <div class="project third">Project</div>
-        <h1 class="heading contact-heading" id="contact">Contact</h1>
-        <div class="contact-card">
-          <input type="text" class="field name-field" placeholder="Your Name">
-          <input type="email" class="field email-field" placeholder="Your Email">
-          <textarea class="field message-field" placeholder="Message"></textarea>
+      </section>
+      <hr />
+      <section class="tengrid" id="skills">
+        <h1 class="title">Skills</h1>
+        <div class="content-section">
+          <div class="miniCard">
+            <h2 class="content-title">HTML</h2>
+            <img src="./images/html-1.svg" class="language" />
+          </div>
+          <div class="miniCard">
+            <h2 class="content-title">Javascript</h2>
+            <img src="./images/javascript-1.svg" class="language" />
+          </div>
+          <div class="miniCard">
+            <h2 class="content-title">CSS</h2>
+            <img src="./images/css-3.svg" class="language" />
+          </div>
         </div>
-      </footer>
-   
+      </section>
+      <hr />
+      <section class="tengrid" id="projects">
+        <h1 class="title">projects</h1>
+        <div class="content-section">
+          <div class="miniCard"><h2 class="content-title">project</h2></div>
+          <div class="miniCard"><h2 class="content-title">project</h2></div>
+          <div class="miniCard"><h2 class="content-title">project</h2></div>
+        </div>
+      </section>
+      <hr />
+    </main>
+    <footer>
+      <section class="tengrid" id="contact">
+        <h1 class="title">Contact</h1>
+        <form class="bigCard tengrid">
+          
+          <input type="text" id="name-field" text="name" value="Name">
+          <input type="email" id="email-field" value="Email">
+          <input type="text" id="message-field" value="Message">
+          <input type="submit" id="submit-btn">
+        </form>
+      </section>
+    </footer>
     <script src="./script.js"></script>
   </body>
 </html>
-<!-- <container>
-      <header>
-        <div class="logo">
-          <h1 id="logo">L K Henry</h1>
-        </div>
-        <div class="nav">
-          <button
-            class="nav-link about"
-            onclick="showAboutconst()"
-            id="about-me-link"
-          >
-            About me
-          </button>
-          <button class="nav-link skills" id="skills-link">Skills</button>
-          <button class="nav-link" href="#portfolio">Resume</button>
-        </div>
-      </header>
-      <main>
-        <div class="card" id="card">
-          <div class="card__front">
-            <div class="card__title"><h1>About me</h1></div>
-            <div class="card__content">
-              Random text because i cant think of what to put and have no
-              internet to copy other reandom text
-            </div>
-            <div class="portfolio"></div>
-          </div>
-          <div class="card__back">
-            <div class="card__title"><h1>skills</h1></div>
-            <div class="card__content">
-              <ul>
-                <li>javascript</li>
-                <li>Html</li>
-                <li>css</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </main>
-      <footer>
-        <div class="contact">
-          <div class="contact__title"><h1>Contact</h1></div>
-          <div class="contact__direct">
-            <ul>
-              <li>email: projectkh63@gmail.com</li>
-              <li>gitHUB: something@something</li>
-            </ul>
-          </div>
-          <div class="contact__socials">
-            <ul>
-              <li>youtube</li>
-              <li>tiktok</li>
-            </ul>
-          </div>
-        </div>
-      </footer>
-    </container> -->
-<!-- <img
-    class="logo"
-    src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/4fdfe8139521263.623108d776a89.png"
-  />
-  <header class="purple-background">
-    <div class="logo-div"><img
-            id="logo"
-            src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/4fdfe8139521263.623108d776a89.png"
-          />
-    </div>
-  <div class="nav-links-div">
-    <a class="nav-link" href="#about-me">About me</a>
-    <a class="nav-link" href="#skills">Skills</a>
-    <a class="nav-link" href="#portfolio">Portfolio/Resume</a>
-  </div>
-</header>
-
-<main>
-  <div class="about-me">
-    <h2 id="about-me">About_me</h2>
-  </div> 
-  
-  <div class="skills-div purple-background"><h2 id="skills">Skills</h2>
-    <ul>
-      <li>javascript</li>
-      <li>Html</li>
-      <li>css</li>
-    </ul>
-  </div> 
-
-  
-</main>
-
-<footer>
-  <div class="portfolio-div">
-    <h2 class="portfolio" id="portfolio">Portfolio/Resume</h1>
-      <div class="portfolio-links-div">
-      <a class="portfolio-link"href="#">Portfolio</a>
-      <a class="portfolio-link"href="#">Resume</a>
-    </div>
-  </div>
-  
-  <div class="contact-div">
-    <hr />
-    <h2>contact me</h2>
-    <ul>
-      <li>projectlkh63@gmail.com</li>
-      <li>gitHub account</li>
-    </ul>
-  </div></div>
-  
-</footer> -->

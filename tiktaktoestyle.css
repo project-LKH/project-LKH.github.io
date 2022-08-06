@@ -79,7 +79,7 @@ h1 {
     font-size: 300%;
   }
   .board {
-    /* border-radius: 25px; */
+    border:.1px solid black;
     width: 200px;
     height: 200px;
     background-color: #e0e0e0;

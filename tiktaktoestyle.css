@@ -5,12 +5,13 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: black;
-  color:white;
+  background-color: #e0e0e0;
 }
 h1 {
-  font-size: 300%;
-  text-decoration: 2px underline red;
+  color: black;
+  font-size: 3em;
+  text-shadow: 13px 13px 8px #5a5a5a, -13px -13px 8px #ffffff;
+  outline: none;
 }
 .who {
   display: flex;
@@ -22,26 +23,33 @@ h1 {
 }
 .board {
   border-radius: 25px;
-  width: 400px;
-  height: 400px;
-  background-color: brown;
+  width: 200px;
+  height: 200px;
+  background-color: #e0e0e0;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-gap: 1em;
   padding: 1em;
+  border-radius: 50px;
+  background: #e0e0e0;
+  box-shadow: 13px 13px 8px black, -25px -25px 80px #ffffff;
 }
 .block {
-    box-shadow: 1px 1px 50px 10px black;
+  color: black;
+  box-shadow: 1px 1px 50px 10px black;
   border-radius: 25px;
-  background-color: blue;
-  font-size: 600%;
+  text-shadow: 5px 5px 4.5px #000000;
+  font-size: 2em;
   display: grid;
   justify-content: center;
   align-items: center;
+  border-radius: 79px;
+  background: #e0e0e0;
+  box-shadow: inset 13px 13px 30px black, inset -25px -25px 75px #ffffff;
 }
-#winner{
-  display:none;
+#winner {
+  display: none;
   font-size: 300%;
   text-align: center;
   text-justify: center;

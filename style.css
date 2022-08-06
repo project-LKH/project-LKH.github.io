@@ -133,7 +133,7 @@ section {
   grid-column:1/-1;
 }
 .card-description{
-  font-size:.65em;
+  font-size:.60em;
   grid-row:2/-1;
   grid-column:1/-1;
 }
@@ -145,11 +145,11 @@ section {
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
-  background:transparent;
+  /* background:transparent; */
 }
 .card-front{
-  /* backdrop-filter: blur(14px) saturate(112%); */
-  /* -webkit-backdrop-filter: blur(14px) saturate(112%); */
+   backdrop-filter: blur(14px) saturate(112%); 
+   -webkit-backdrop-filter: blur(14px) saturate(112%); 
   background-color: rgba(17, 25, 40, 0.48);
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.125);

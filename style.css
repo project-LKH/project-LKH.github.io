@@ -208,7 +208,7 @@ section {
   bottom: 30px;
   right: 30px;
   border-radius: 15px;
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   width: 30px;

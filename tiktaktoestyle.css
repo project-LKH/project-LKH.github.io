@@ -93,6 +93,7 @@ h1 {
     box-shadow: 13px 13px 8px black, -25px -25px 80px #ffffff;
   }
   .block {
+    border:1px solid black;
     color: black;
     box-shadow: 1px 1px 50px 10px black;
     border-radius: 25px;

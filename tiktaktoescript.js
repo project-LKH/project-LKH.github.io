@@ -53,17 +53,15 @@ function checkForWin() {
       if (winConditions[i][j].innerHTML == "X") {
         x++;
         if (x == 3) {
-          winner.innerHTML = "player X wins";
-          winner.style.display = "block";
-          reset();
+          window.alert("player X wins") ;
+         
           return;
         }
       } else if (winConditions[i][j].innerHTML == "O") {
         o++;
         if (o == 3) {
-          winner.innerHTML = "player O wins";
-          winner.style.display = "block";
-          reset();
+          window.alert("player O wins") ;
+          
           return;
         }
       }

@@ -7,14 +7,14 @@ function fillXorO(id) {
   if (div.innerHTML == "X" || div.innerHTML == "O") {
     return;
   }
-  if (currentPlayer.innerHTML == 1) {
+  if (currentPlayer.innerHTML == "X") {
     div.innerHTML = "X";
-    currentPlayer.innerHTML = 2;
+    currentPlayer.innerHTML = "O";
     checkForWin();
     checkForTie();
   } else {
     div.innerHTML = "O";
-    currentPlayer.innerHTML = 1;
+    currentPlayer.innerHTML = "X";
     checkForWin();
     checkForTie();
   }
@@ -53,7 +53,7 @@ function checkForWin() {
       if (winConditions[i][j].innerHTML == "X") {
         x++;
         if (x == 3) {
-          winner.innerHTML = "player 1 wins";
+          winner.innerHTML = "player X wins";
           winner.style.display = "block";
           reset();
           return;
@@ -61,7 +61,7 @@ function checkForWin() {
       } else if (winConditions[i][j].innerHTML == "O") {
         o++;
         if (o == 3) {
-          winner.innerHTML = "player 2 wins";
+          winner.innerHTML = "player O wins";
           winner.style.display = "block";
           reset();
           return;

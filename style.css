@@ -1,4 +1,6 @@
 body {
+  margin:0;
+  padding:0;
   width: 100vw;
   height: auto;
   background-color: rgb(54, 0, 0);
@@ -12,6 +14,8 @@ body {
     radial-gradient(at 100% 100%, hsl(218, 39%, 11%) 0, transparent 55%);
 }
 html{
+  margin:0;
+  padding:0;
   height:auto;
   scroll-behavior: smooth;
 }

@@ -114,7 +114,7 @@ section {
   justify-self: center;
 }
 .about-text {
-  color: black;
+  color: white;
   grid-row: 6/9;
   grid-column: 2/10;
   font-size: 0.75em;

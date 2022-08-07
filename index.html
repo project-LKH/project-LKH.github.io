@@ -23,7 +23,7 @@
     <main>
       <section class="tengrid" id="About-me">
         <h2 class="title">About Me</h2>
-        <div class="bigCard tengrid">
+        <div class="bigCard tengrid form">
           <img src="./images/meinalaptop.png" class="about-img" alt="Me"/>
           <p class="about-text">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -91,12 +91,12 @@
     <footer>
       <section class="tengrid" id="contact">
         <h2 class="title">Contact</h2>
-        <form class ="bigCard form" action="https://formsubmit.co/projectlkh63@gmail.com" method="POST">
+        <form class ="bigCard form flex" action="https://formsubmit.co/projectlkh63@gmail.com" method="POST">
           <input type="hidden" name="_captcha" value="false">
           <input type="text" name="name" placeholder="Name" id="contact-name" required>
           <input type="email" name="email" placeholder="Email" id="contact-email" required>
           <input type="text" name="subject" placeholder="subject" id="contact-subject" required>
-          <textarea placeholder="Message" id="contact-message" required></textarea>
+          <textarea type=text" name="Message" placeholder="Message" id="contact-message" required></textarea>
           <button type="submit" id="contact-submit">Send</button>
      </form>
       </section>

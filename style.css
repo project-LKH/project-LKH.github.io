@@ -179,12 +179,14 @@ section {
   width: 100px;
   height: 80px;
 }
-.form {
-  background-color: #111927;
+.flex{
   display: flex;
   flex-direction: column;
-  padding: 1em;
   justify-content: space-around;
+  padding: 1em;
+}
+.form {
+  background-color: #111927;
   border:2px solid rgba(255, 0, 0, 0.774);
 }
 .content-title {

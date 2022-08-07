@@ -91,12 +91,14 @@
     <footer>
       <section class="tengrid" id="contact">
         <h2 class="title">Contact</h2>
-        <form class="bigCard tengrid">
-          <input type="text" id="name-field" value="Name" />
-          <input type="email" id="email-field" value="Email" />
-          <input type="text" id="message-field" value="Message" />
-          <input type="submit" id="submit-btn" />
-        </form>
+        <form class ="bigCard form" action="https://formsubmit.co/projectlkh63@gmail.com" method="POST">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="text" name="name" placeholder="Name" id="contact-name" required>
+          <input type="email" name="email" placeholder="Email" id="contact-email" required>
+          <input type="text" name="subject" placeholder="subject" id="contact-subject" required>
+          <textarea placeholder="Message" id="contact-message" required></textarea>
+          <button type="submit" id="contact-submit">Send</button>
+     </form>
       </section>
     </footer>
     <script src="./script.js"></script>

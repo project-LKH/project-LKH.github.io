@@ -1,10 +1,10 @@
-*{
-  margin:0;
-  padding:0;
+* {
+  margin: 0;
+  padding: 0;
 }
 body {
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
   width: 100vw;
   height: auto;
   background-color: rgb(54, 0, 0);
@@ -17,10 +17,10 @@ body {
     ),
     radial-gradient(at 100% 100%, hsl(218, 39%, 11%) 0, transparent 55%);
 }
-html{
-  margin:0;
-  padding:0;
-  height:auto;
+html {
+  margin: 0;
+  padding: 0;
+  height: auto;
   scroll-behavior: smooth;
 }
 header {
@@ -39,8 +39,8 @@ header {
   grid-column: 4/8;
   text-align: center;
   font-size: 2em;
-  border-top:2px solid #111927;
-  border-bottom:2px solid #111927;
+  border-top: 2px solid #111927;
+  border-bottom: 2px solid #111927;
 }
 .sub-heading {
   grid-row: 6/7;
@@ -65,12 +65,12 @@ a:hover {
   font-size: 1.5em;
   color: red;
   text-decoration: underline;
-  
 }
-.miniCard:hover .card-inner{
-  transform:rotateY(180deg);
+.miniCard:hover .card-inner {
+  transform: rotateY(180deg);
 }
-.card-front, .card-back {
+.card-front,
+.card-back {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -82,9 +82,9 @@ section {
   width: 100%;
 }
 .title {
-  display:grid;
-  width:100%;
-  height:75%;
+  display: grid;
+  width: 100%;
+  height: 75%;
   justify-self: center;
   align-self: center;
   text-align: center;
@@ -107,7 +107,7 @@ section {
 }
 .about-img {
   width: 100%;
-  height:100%;
+  height: 100%;
   grid-row: 1/5;
   grid-column: 2/10;
   align-self: center;
@@ -117,7 +117,7 @@ section {
   color: black;
   grid-row: 6/9;
   grid-column: 2/10;
-  font-size: .75em;
+  font-size: 0.75em;
 }
 .content-section {
   grid-row: 2/-1;
@@ -128,7 +128,7 @@ section {
   align-items: center;
 }
 .miniCard {
-  background:transparent;
+  background: transparent;
   color: white;
   width: 100px;
   height: 150px;
@@ -136,15 +136,15 @@ section {
   display: grid;
   perspective: 1000px;
 }
-.card-title{
-  font-size:.7em;
-  grid-row:1/2;
-  grid-column:1/-1;
+.card-title {
+  font-size: 0.7em;
+  grid-row: 1/2;
+  grid-column: 1/-1;
 }
-.card-description{
-  font-size:.50em;
-  grid-row:2/-1;
-  grid-column:1/-1;
+.card-description {
+  font-size: 0.5em;
+  grid-row: 2/-1;
+  grid-column: 1/-1;
 }
 
 .card-inner {
@@ -154,11 +154,10 @@ section {
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
-  /* background:transparent; */
 }
-.card-front{
-   backdrop-filter: blur(14px) saturate(112%); 
-   -webkit-backdrop-filter: blur(14px) saturate(112%); 
+.card-front {
+  backdrop-filter: blur(14px) saturate(112%);
+  -webkit-backdrop-filter: blur(14px) saturate(112%);
   background-color: rgba(17, 25, 40, 0.48);
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.125);
@@ -166,7 +165,6 @@ section {
 }
 
 .card-back {
-  /* padding:em; */
   backdrop-filter: blur(14px) saturate(112%);
   -webkit-backdrop-filter: blur(14px) saturate(112%);
   background-color: rgba(17, 25, 40, 0.48);
@@ -179,39 +177,45 @@ section {
   justify-self: center;
   align-self: center;
   width: 100px;
-  height:80px;
+  height: 80px;
+}
+.form {
+  background-color: #111927;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  justify-content: space-around;
+  border:2px solid rgba(255, 0, 0, 0.774);
 }
 .content-title {
-  font-size:1em;
+  font-size: 1em;
   text-align: center;
 }
-#name-field {
-  color: grey;
-  grid-row: 2/3;
-  grid-column: 2/10;
+#contact-name {
+  border-color: rgba(255, 0, 0, 0.774);
+  height: 2em;
 }
-#email-field {
-  color: grey;
-  grid-row: 4/5;
-  grid-column: 2/10;
+#contact-email {
+  height: 2em;
+  border-color: rgba(255, 0, 0, 0.774);
 }
-#message-field {
-  color: grey;
-  grid-row: 6/9;
-  grid-column: 2/10;
+#contact-message {
+  border-color: rgba(255, 0, 0, 0.774);
+  height:5em;
 }
-#submit-btn {
-  text-align: center;
-  text-justify: center;
-  justify-self: center;
+#contact-subject {
+  height: 2em;
+  border-color: rgba(255, 0, 0, 0.774);
+}
+#contact-submit {
+  border-radius: 25px;
+  border-color: rgba(255, 0, 0, 0.774);
   align-self: center;
-  width: 55px;
-  height: 20px;
-  grid-row: 9/-1;
-  grid-column: 2/10;
+  width: 5em;
+  height: 2em;
 }
 #topBtn {
-  font-size: .8;
+  font-size: 0.8;
   position: fixed;
   bottom: 30px;
   right: 30px;
@@ -246,7 +250,7 @@ section {
     grid-row: 6/10;
   }
   .about-img {
-    width:200px;
+    width: 200px;
     grid-row: 1/5;
   }
   .content-section {
@@ -258,8 +262,8 @@ section {
     height: 30px;
     font-size: 1em;
   }
-  .miniCard{
-    width:250px;
-    height:300px;
+  .miniCard {
+    width: 250px;
+    height: 300px;
   }
 }

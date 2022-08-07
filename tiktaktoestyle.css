@@ -2,10 +2,12 @@
   margin: 0;
   padding: 0;
 }
+.flex{
+  display: flex;
+}
 body {
   width: 100vw;
   height: 100vh;
-  display: flex;
   align-content: space-around;
   flex-direction: column;
   justify-content: center;
@@ -19,7 +21,6 @@ h1 {
   outline: none;
 }
 .who {
-  display: flex;
   justify-content: space-around;
   align-items: center;
 }

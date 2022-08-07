@@ -2,7 +2,7 @@ const winner = document.getElementById("winner");
 
 function fillXorO(id) {
   const div = document.getElementById(id);
-  const currentPlayer = document.getElementById("playerNo");
+  const currentPlayer = document.getElementById("currentPlayer");
   winner.style.display = "none";
   if (div.innerHTML == "X" || div.innerHTML == "O") {
     return;
@@ -76,6 +76,7 @@ function reset() {
   b7.innerHTML = "";
   b8.innerHTML = "";
   b9.innerHTML = "";
+  winner.style.display="none"
 }
 function checkForTie() {
   if (
@@ -91,7 +92,6 @@ function checkForTie() {
   ) {
     winner.innerHTML = "It's a Tie";
     winner.style.display = "block";
-    reset()
     return
   }
 }

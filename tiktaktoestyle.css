@@ -77,7 +77,7 @@ h1 {
   }
   .block {
     border: 1px solid black !important;
-    color: black !important !important;
+    color: black !important ;
     box-shadow: 1px 1px 50px 10px black !important;
  
     text-shadow: 5px 5px 3px #000000 !important;

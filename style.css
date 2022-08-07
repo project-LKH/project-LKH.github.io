@@ -177,10 +177,10 @@ section {
 }
 .language {
   grid-row:2/-1;
+  grid-column:2/10;
   justify-self: center;
   align-self: center;
-  width: 100px;
-  height: 80px;
+ width:75%;
 }
 .flex{
   display: flex;
@@ -267,4 +267,6 @@ section {
     width: 250px;
     height: 300px;
   }
+
+ 
 }

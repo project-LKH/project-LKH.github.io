@@ -228,6 +228,7 @@ section {
   right: 30px;
   display: none;
   color:white;
+  z-index: 99;
 }
 @media screen and (orientation: landscape) {
   nav {
@@ -267,6 +268,8 @@ section {
     width: 250px;
     height: 300px;
   }
-
+.card-description{
+  font-size:1.2em;
+}
  
 }

@@ -244,7 +244,16 @@ section {
   color:white;
   z-index: 99;
 }
-@media screen and (orientation: landscape) {
+.home-img{
+  width:100%;
+ 
+  grid-row:4/5;
+  grid-column:4/8;
+}
+@media screen and (orientation: landscape){
+  .home-img{
+    grid-column:5/7;
+  }
   nav {
     font-size: 1em;
   }

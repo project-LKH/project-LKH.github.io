@@ -114,10 +114,11 @@ section {
   justify-self: center;
 }
 .about-text {
+  padding:0 .5em;
   align-self:center;
   color: white;
-  grid-row: 5/9;
-  grid-column: 2/10;
+  grid-row: 6/9;
+  grid-column: 1/11;
   font-size: 0.75em;
   height:100%;
 }
@@ -273,6 +274,7 @@ section {
   .about-text {
     font-size: 1em;
     grid-row: 6/10;
+    grid-column:2/10;
   }
   .about-img {
     width: 200px;

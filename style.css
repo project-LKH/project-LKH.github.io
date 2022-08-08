@@ -233,7 +233,7 @@ section {
   width: 5em;
   height: 2em;
 }
-#topBtn:focus{
+#topBtn:hover{
   color:red;
 }
 #topBtn {

@@ -9,7 +9,7 @@ body {
   height: auto;
   background-color: rgb(54, 0, 0);
   color: white;
-  background-color: #111927;
+  background-color: #0a0f18;
   background-image: radial-gradient(
       at 50% 70%,
       hsl(359, 77%, 40%) 0,
@@ -24,7 +24,7 @@ html {
   scroll-behavior: smooth;
 }
 header {
-  background-color: #111927;
+  background-color: #0a0f18;
   background-image: radial-gradient(
       at 50% 50%,
       hsl(359, 77%, 40%) 0,

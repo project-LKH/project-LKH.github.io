@@ -12,7 +12,7 @@ body {
   background-color: #0a0f18;
   background-image: radial-gradient(
       at 50% 70%,
-      hsl(359, 77%, 40%) 0,
+      #b5171a 0,
       transparent 59%
     ),
     radial-gradient(at 100% 100%, hsl(218, 39%, 11%) 0, transparent 55%);

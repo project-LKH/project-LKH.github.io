@@ -18,6 +18,8 @@ html {
   padding: 0;
   height: auto;
   scroll-behavior: smooth;
+  font-size: calc(15px + 0.390625%);
+  word-wrap: break-all;
 }
 header {
   background-color: #0a0f18;
@@ -110,7 +112,7 @@ section {
   justify-self: center;
 }
 .about-text {
-  padding: 0 0.5em;
+  padding: 0.5em 0.5em;
   align-self: center;
   color: white;
   grid-row: 6/9;
@@ -125,6 +127,11 @@ section {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+}
+p{
+  width:100%;
+  height:100%;
+  word-wrap: break-all;
 }
 .miniCard {
   background: transparent;
@@ -289,6 +296,10 @@ section {
   width:100%;
 }
 @media screen and (orientation: landscape) {
+  html{
+    font-size: calc(15px + 0.390625%);
+    word-wrap: break-all;
+  }
   .construction{
     width:200px;
   }

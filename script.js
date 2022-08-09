@@ -14,7 +14,13 @@ function scrollFunction(){
     document.documentElement.scrollTop=0;
 
  }
-
+ function on() {
+    document.getElementById("overlay").style.display = "block";
+  }
+  
+  function off() {
+    document.getElementById("overlay").style.display = "none";
+  }
 
 
 

@@ -10,11 +10,7 @@ body {
   background-color: rgb(54, 0, 0);
   color: white;
   background-color: #0a0f18;
-  background-image: radial-gradient(
-      at 50% 70%,
-      #b5171a 0,
-      transparent 59%
-    ),
+  background-image: radial-gradient(at 50% 70%, #b5171a 0, transparent 59%),
     radial-gradient(at 100% 100%, hsl(218, 39%, 11%) 0, transparent 55%);
 }
 html {
@@ -62,7 +58,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  border:1px solid red;
+  border: 1px solid red;
   color: red;
   text-decoration: underline;
 }
@@ -114,13 +110,13 @@ section {
   justify-self: center;
 }
 .about-text {
-  padding:0 .5em;
-  align-self:center;
+  padding: 0 0.5em;
+  align-self: center;
   color: white;
   grid-row: 6/9;
   grid-column: 1/11;
   font-size: 0.75em;
-  height:100%;
+  height: 100%;
 }
 .content-section {
   grid-row: 2/-1;
@@ -139,17 +135,17 @@ section {
   display: grid;
   perspective: 1000px;
 }
-.tik-tak-toe-link{
-  grid-column:1/-1;
-  grid-row:1/-1;
-  width:100%;
-  height:100%;
+.tik-tak-toe-link {
+  grid-column: 1/-1;
+  grid-row: 1/-1;
+  width: 100%;
+  height: 100%;
 }
-.tik-tak-toe{
-  border:2px solid red;
-  border-radius:25px;
-  width:100%;
-  height:100%;
+.tik-tak-toe {
+  border: 2px solid red;
+  border-radius: 25px;
+  width: 100%;
+  height: 100%;
 }
 .card-title {
   font-size: 0.7em;
@@ -157,8 +153,8 @@ section {
   grid-column: 1/-1;
 }
 .card-description {
-  width:100%;
-  height:100%;
+  width: 100%;
+  height: 100%;
   font-size: 0.5em;
   grid-row: 4/-1;
   grid-column: 1/-1;
@@ -191,13 +187,13 @@ section {
   transform: rotateY(180deg);
 }
 .language {
-  grid-row:2/-1;
-  grid-column:2/10;
+  grid-row: 2/-1;
+  grid-column: 2/10;
   justify-self: center;
   align-self: center;
- width:75%;
+  width: 75%;
 }
-.flex{
+.flex {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -205,7 +201,7 @@ section {
 }
 .form {
   background-color: #111927;
-  border:2px solid rgba(255, 0, 0, 0.774);
+  border: 2px solid rgba(255, 0, 0, 0.774);
 }
 .content-title {
   font-size: 1em;
@@ -221,7 +217,7 @@ section {
 }
 #contact-message {
   border-color: rgba(255, 0, 0, 0.774);
-  height:5em;
+  height: 5em;
 }
 #contact-subject {
   height: 2em;
@@ -234,26 +230,70 @@ section {
   width: 5em;
   height: 2em;
 }
-#topBtn:hover{
-  color:red;
+#topBtn:hover {
+  color: red;
 }
 #topBtn {
   position: fixed;
   bottom: 30px;
   right: 30px;
   display: none;
-  color:white;
+  color: white;
   z-index: 99;
 }
-.home-img{
-  width:100%;
- 
-  grid-row:4/5;
-  grid-column:4/8;
+.home-img {
+  width: 100%;
+
+  grid-row: 4/5;
+  grid-column: 4/8;
 }
-@media screen and (orientation: landscape){
-  .home-img{
-    grid-column:5/7;
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+.fullscreen{
+  width:100%;
+  height:100%;
+}
+
+#text {
+  grid-row:6/7;
+  grid-column:2/10;
+  font-size: 2em;
+  color: white;
+  align-self:center;
+  justify-self:center;
+  text-decoration:black solid ;
+}
+.construction{
+  align-self:center;
+  justify-self:center;
+  grid-row:4/5;
+  grid-column:2/10;
+  width:150px;
+}
+.resume {
+  align-self:center;
+  justify-self:center;
+  grid-row: 10/11;
+  grid-column: 3/9;
+  width:100%;
+}
+@media screen and (orientation: landscape) {
+  .construction{
+    width:200px;
+  }
+  .home-img {
+    grid-column: 5/7;
   }
   nav {
     font-size: 1em;
@@ -274,7 +314,7 @@ section {
   .about-text {
     font-size: 1em;
     grid-row: 6/10;
-    grid-column:2/10;
+    grid-column: 2/10;
   }
   .about-img {
     width: 200px;
@@ -293,8 +333,7 @@ section {
     width: 250px;
     height: 300px;
   }
-.card-description{
-  font-size:1.2em;
-}
- 
+  .card-description {
+    font-size: 1.2em;
+  }
 }

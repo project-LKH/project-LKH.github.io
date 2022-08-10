@@ -13,6 +13,10 @@ body {
   background-image: radial-gradient(at 50% 70%, #b5171a 0, transparent 59%),
     radial-gradient(at 100% 100%, hsl(218, 39%, 11%) 0, transparent 55%);
 }
+@font-face{
+  font-family: Courgette;
+  src:url("./fonts/Courgette")
+}
 html {
   margin: 0;
   padding: 0;
@@ -20,6 +24,7 @@ html {
   width:100vw;
   scroll-behavior: smooth;
   overflow-x:hidden;
+  font-family: Courgette;
   
 }
 header {

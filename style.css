@@ -297,7 +297,9 @@ p{
   justify-self:center;
   grid-row: 10/11;
   grid-column: 3/9;
-  width:100%;
+  width:80%;
+  border-radius:25px;
+  border:1px solid red;
 }
 @media screen and (orientation: landscape) {
   .construction{

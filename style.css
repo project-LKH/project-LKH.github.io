@@ -15,7 +15,8 @@ body {
 }
 @font-face{
   font-family: Courgette;
-  src:url("./fonts/Courgette")
+  src:url("./fonts/Courgette");
+  font-display:swap;
 }
 html {
   margin: 0;

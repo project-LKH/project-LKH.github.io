@@ -2,6 +2,14 @@
   margin: 0;
   padding: 0;
 }
+#github{
+  grid-row:8/9;
+  grid-column:10/11;
+  margin-right:.5rm;
+}
+#github:hover{
+  color:red;
+}
 body {
   margin: 0;
   padding: 0;

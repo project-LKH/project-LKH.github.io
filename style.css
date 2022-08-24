@@ -7,7 +7,12 @@
   grid-column:10/11;
   margin-right:.5rm;
 }
-#github:hover{
+#linkdin{
+  grid-row:9/10;
+  grid-column:10/11;
+  margin-right:.5rm;
+}
+#github:hover ,#linkdin:hover{
   color:red;
 }
 body {

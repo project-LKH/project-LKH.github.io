@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head >
-    <link rel="preload" href="./style.css" as="style">
-    <link rel="preload" href="./script.js" as="script">
-    <script src="https://kit.fontawesome.com/e48795e6bd.js" crossorigin="anonymous" defer></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" >
-    <meta name="color-scheme" content="light only">
+  <head>
+    <link rel="preload" href="./style.css" as="style" />
+    <link rel="preload" href="./script.js" as="script" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Gugi&display=swap');
+      </style>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta name="color-scheme" content="light only" />
     <link rel="stylesheet" href="./style.css" type="text/css" media="screen" />
     <title>L K Henry</title>
   </head>
@@ -17,30 +22,51 @@
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
       </nav>
-      <img  class="home-img" src="./images/sticker.webp" alt="">
+      <img class="home-img" src="./images/sticker.webp" alt="" />
       <h1 class="heading">L K Henry</h1>
       <h2 class="sub-heading">Web Developer</h2>
-      <i class="fa-solid fa-angles-up fa-2x"  id="topBtn" onclick="topFunction()"></i>
+      <i
+        class="fa-solid fa-angles-up fa-2x"
+        id="topBtn"
+        onclick="topFunction()"
+      ></i>
     </header>
-     <br>
+    <br />
     <!--<hr />-->
-    <br> 
+    <br />
     <main>
       <div id="overlay" onclick="off()">
-        <div class="tengrid fullscreen"><img class="construction" src="./images/CONSTRUCTION.webp" alt="under-construction"><div id="text">Under-Construction</div></div>
+        <div class="tengrid fullscreen">
+          <img
+            class="construction"
+            src="./images/CONSTRUCTION.webp"
+            alt="under-construction"
+          />
+          <div id="text">Under-Construction</div>
+        </div>
       </div>
       <section class="tengrid" id="About-me">
         <h2 class="title">About Me</h2>
         <div class="bigCard tengrid form">
-          <img src="./images/true-story.webp" class="about-img" alt="Me"/>
+          <img src="./images/true-story.webp" class="about-img" alt="Me" />
           <p class="about-text">
-            Hey! My name is Liam Henry, and I am presently pursuing a career as a web developer with the skills required to create simple yet creative and functional web-pages, sites, and applications. I am currently based in Durban, South Africa, and spend the majority of my time learning and growing as a developer.
-          </p><a id="resume"href="https://drive.google.com/file/d/1ELfv8G3Nh7FELW4lppIvyckqE8jSd9UW/view?usp=sharing" class="resume">Resume</a>
+            Hey! My name is Liam Henry, and I am presently pursuing a career as
+            a web developer with the skills required to create simple yet
+            creative and functional web-pages, sites, and applications. I am
+            currently based in Durban, South Africa, and spend the majority of
+            my time learning and growing as a developer.
+          </p>
+          <a
+            id="resume"
+            href="https://drive.google.com/file/d/1ELfv8G3Nh7FELW4lppIvyckqE8jSd9UW/view?usp=sharing"
+            class="resume"
+            >Resume</a
+          >
         </div>
       </section>
-       <br>
-   <!-- <hr /> -->
-    <br>
+      <br />
+      <!-- <hr /> -->
+      <br />
       <section class="tengrid" id="skills">
         <h2 class="title">Skills</h2>
         <div class="content-section">
@@ -48,22 +74,36 @@
             <div class="card-inner">
               <div class="card-front tengrid">
                 <h2 class="content-title title">HTML</h2>
-                <img src="./images/html-1.svg" class="language" alt="HTML"/>
+                <img src="./images/html-1.svg" class="language" alt="HTML" />
               </div>
               <div class="card-back tengrid">
-                <p class="card-title title">What is HTML and why is it used?</p><p class="card-description">HTML (Hypertext Markup Language) is a text-based approach to describing how content contained within an HTML file is structured.</p></div>
+                <p class="card-title title">What is HTML and why is it used?</p>
+                <p class="card-description">
+                  HTML (Hypertext Markup Language) is a text-based approach to
+                  describing how content contained within an HTML file is
+                  structured.
+                </p>
+              </div>
             </div>
           </div>
           <div class="miniCard">
             <div class="card-inner">
               <div class="card-front tengrid">
                 <h2 class="content-title title">Javascript</h2>
-                <img src="./images/javascript-1.svg" class="language" alt="Javascript" />
+                <img
+                  src="./images/javascript-1.svg"
+                  class="language"
+                  alt="Javascript"
+                />
               </div>
               <div class="card-back tengrid">
-                <p class="card-title title">What is JavaScript and why it is used?</p>
+                <p class="card-title title">
+                  What is JavaScript and why it is used?
+                </p>
                 <p class="card-description">
-                JavaScript is a text-based programming language used both on the client-side and server-side that allows you to make web pages interactive.
+                  JavaScript is a text-based programming language used both on
+                  the client-side and server-side that allows you to make web
+                  pages interactive.
                 </p>
               </div>
             </div>
@@ -74,37 +114,78 @@
                 <h2 class="content-title title">CSS</h2>
                 <img src="./images/css-3.svg" class="language" alt="CSS" />
               </div>
-              <div class="card-back tengrid"><p class="card-title title">What is CSS and why is it used?</p><p class="card-description">CSS stands for Cascading Style Sheets, and it's used to add style to a web page by dictating how a site is displayed on a browser.</p></div>
+              <div class="card-back tengrid">
+                <p class="card-title title">What is CSS and why is it used?</p>
+                <p class="card-description">
+                  CSS stands for Cascading Style Sheets, and it's used to add
+                  style to a web page by dictating how a site is displayed on a
+                  browser.
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </section>
-       <br>
-    <!--<hr /> -->
-    <br>
+      <br />
+      <!--<hr /> -->
+      <br />
       <section class="tengrid" id="projects">
         <h2 class="title">Projects</h2>
         <div class="content-section">
-          <div class="miniCard tengrid"><a class="tik-tak-toe-link" href="./tiktaktoe.html" target="_blank"><img class="tik-tak-toe" src="./images/tik-tak-toe.webp" alt="tik-tak-toe"></a></div>
+          <div class="miniCard tengrid">
+            <a class="tik-tak-toe-link" href="./tiktaktoe.html" target="_blank"
+              ><img
+                class="tik-tak-toe"
+                src="./images/tik-tak-toe.webp"
+                alt="tik-tak-toe"
+            /></a>
+          </div>
           <div class="miniCard"><h2 class="content-title">coming-soon</h2></div>
           <div class="miniCard"><h2 class="content-title">coming-soon</h2></div>
         </div>
       </section>
-       <br>
-     <!-- <hr />-->
-      <br> 
+      <br />
+      <!-- <hr />-->
+      <br />
     </main>
     <footer>
       <section class="tengrid" id="contact">
         <h2 class="title">Contact</h2>
-        <form class ="bigCard form flex" action="https://formsubmit.co/projectlkh63@gmail.com" method="POST">
-          <input type="hidden" name="_captcha" value="false">
-          <input type="text" name="name" placeholder="Name" id="contact-name" required>
-          <input type="email" name="email" placeholder="Email" id="contact-email" required>
-          <input type="text" name="subject" placeholder="subject" id="contact-subject" required>
-          <textarea name="Message" placeholder="Message" id="contact-message" required></textarea>
+        <form
+          class="bigCard form flex"
+          action="https://formsubmit.co/projectlkh63@gmail.com"
+          method="POST"
+        >
+          <input type="hidden" name="_captcha" value="false" />
+          <input
+            type="text"
+            name="name"
+            placeholder="Name"
+            id="contact-name"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Email"
+            id="contact-email"
+            required
+          />
+          <input
+            type="text"
+            name="subject"
+            placeholder="subject"
+            id="contact-subject"
+            required
+          />
+          <textarea
+            name="Message"
+            placeholder="Message"
+            id="contact-message"
+            required
+          ></textarea>
           <button type="submit" id="contact-submit">Send</button>
-     </form>
+        </form>
       </section>
     </footer>
     <script src="./script.js" defer></script>

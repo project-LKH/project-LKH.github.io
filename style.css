@@ -3,10 +3,14 @@
   padding: 0;
 }
   
-
-#github{
+.social_links{
+grid-column: 1/-1;
   grid-row:8/9;
-  grid-column:4/5;
+  display:flex;
+  justify-content:space-evenly;
+}
+#github{
+  
   margin-right:.5rm;
   width:fit-content;
   height:fit-content;
@@ -14,8 +18,8 @@
 #linkdin{
   width:fit-content;
   height:fit-content;
-  grid-row:8/9;
-  grid-column:7/8;
+ 
+
   margin-right:.5rm;
 }
 #github:hover ,#linkdin:hover{
@@ -335,15 +339,9 @@ p {
   border: 1px solid red;
 }
 @media screen and (orientation: landscape) {
-  #github{
-    grid-row:8/9;
-    grid-column:10/11;
-    margin-right:.5rm;
-  }
-  #linkdin{
-    grid-row:9/10;
-    grid-column:10/11;
-    margin-right:.5rm;
+  .social_links{
+    grid-column:9/10;
+    flex-direction:column;
   }
   .construction {
     width: 200px;

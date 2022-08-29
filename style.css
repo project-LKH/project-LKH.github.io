@@ -2,18 +2,25 @@
   margin: 0;
   padding: 0;
 }
+  
+
 #github{
   grid-row:8/9;
   grid-column:4/5;
   margin-right:.5rm;
+  width:fit-content;
+  height:fit-content;
 }
 #linkdin{
+  width:fit-content;
+  height:fit-content;
   grid-row:8/9;
   grid-column:7/8;
   margin-right:.5rm;
 }
 #github:hover ,#linkdin:hover{
   color:red;
+  outline:none;
 }
 body {
   margin: 0;
@@ -89,8 +96,8 @@ a {
   text-decoration: none;
   font-family: 'Bungee Shade', cursive;
 }
+
 a:hover {
-  border: 1px solid red;
   color: red;
   text-decoration: underline;
 }

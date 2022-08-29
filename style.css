@@ -343,6 +343,9 @@ p {
     grid-column:9/10;
     flex-direction:column;
   }
+  #github, #linkdin{
+    align-self: center;
+  }
   .construction {
     width: 200px;
   }

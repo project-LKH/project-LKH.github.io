@@ -340,7 +340,7 @@ p {
 }
 @media screen and (orientation: landscape) {
   .social_links{
-    grid-column:9/10;
+    grid-column:10/11;
     flex-direction:column;
   }
   #github, #linkdin{

@@ -3,6 +3,10 @@
   <head>
     <link rel="preload" href="./style.css" as="style" />
     <link rel="preload" href="./script.js" as="script" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Gugi&display=swap");
     </style>
@@ -19,8 +23,9 @@
   </head>
   <body>
     <header class="tengrid">
-      <nav>
-        <a href="#About-me">About me</a>
+      <nav class="topnav" id="myTopnav">
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars fa-2x"></i></a>
+        <a href="#About-me">About-me</a>
         <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
@@ -32,13 +37,15 @@
         class="fa-solid fa-angles-up fa-2x"
         id="topBtn"
         onclick="topFunction()"
-      ></i
-      ><div class="social_links"><a href="https://github.com/project-LKH" id="github"
-        ><i class="fa-brands fa-github-square fa-2x"></i
-      ></a>
-      <a href="https://www.linkedin.com/in/liam-henry-105a13249" id="linkdin"
-        ><i class="fa-brands fa-linkedin fa-2x"></i
-      ></a></div>
+      ></i>
+      <div class="social_links">
+        <a href="https://github.com/project-LKH" id="github"
+          ><i class="fa-brands fa-github-square fa-2x"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/liam-henry-105a13249" id="linkdin"
+          ><i class="fa-brands fa-linkedin fa-2x"></i
+        ></a>
+      </div>
     </header>
     <br />
     <br />

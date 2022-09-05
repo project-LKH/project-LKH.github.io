@@ -96,9 +96,8 @@ nav {
 a {
   color: white;
   text-decoration: none;
-  font-family: "Bungee Shade", cursive;
+  font-family: 'Press Start 2P', cursive;
 }
-
 a:hover {
   color: red;
   text-decoration: underline;
@@ -361,7 +360,6 @@ p {
     grid-column:1/10;
     margin-left:1.7em ;
     border: 1px solid red;
-    /* background-color: #111927; */
   }
   .heading {
     font-size: 3em;

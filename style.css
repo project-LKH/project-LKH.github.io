@@ -412,13 +412,25 @@ p {
 @media screen and (max-width: 600px) {
   .topnav a {
     display: none;
-    grid-row: 1/ 2;
+    
+
   }
+  .about-me-link{
+    grid-row:1;
+    grid-column:2/3;
+  }
+  .skills-link{
+    grid-row:1;
+    grid-column:3/4;
+  }
+ 
   .topnav a.icon {
     padding: 0.2em;
-    grid-row: 1;
+    grid-row: 1/3;
+    grid-column:1;
     display: block;
   }
+
   .topnav.responsive {
     position: fixed;
     border: 1px solid red;
@@ -439,11 +451,11 @@ p {
     width: fit-content;
     background-color: none;
     border: none;
-    /* padding: 0.8em; */
+  
   }
   .topnav.responsive a {
     font-size: 0.8em;
-    /* padding:0em .9em; */
+    
     display: block;
   }
 }

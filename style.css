@@ -96,7 +96,7 @@ nav {
 a {
   color: white;
   text-decoration: none;
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
 }
 a:hover {
   color: red;
@@ -149,13 +149,17 @@ section {
   align-self: center;
   justify-self: center;
 }
+.about-me-card {
+  height: fit-content;
+  max-height: 120%;
+}
 .about-text {
   padding: 0 0.5em;
   align-self: center;
   color: white;
   grid-row: 6/9;
   grid-column: 1/11;
-  font-size: 0.75em;
+  font-size: 0.7em;
   height: 100%;
 }
 .content-section {
@@ -356,9 +360,9 @@ p {
   }
   nav {
     font-size: 1em;
-    width:100%;
-    grid-column:1/10;
-    margin-left:1.7em ;
+    width: 100%;
+    grid-column: 1/10;
+    margin-left: 1.7em;
     border: 1px solid red;
   }
   .heading {
@@ -375,10 +379,11 @@ p {
     grid-column: 4/8;
   }
   .about-text {
-    font-size: calc(14px + 0.390625%);
+    font-size: calc(13px + 0.9%);
     grid-row: 6/10;
     grid-column: 2/10;
   }
+
   .about-img {
     width: 200px;
     grid-row: 1/5;
@@ -410,28 +415,32 @@ p {
 }
 
 @media screen and (max-width: 620px) {
+  
+  
+  .about-text {
+    text-align: center;
+  }
+
   .topnav a {
     display: none;
-    
   }
-  .about-me-link{
-    grid-row:1;
-    grid-column:2/3;
+  .about-me-link {
+    grid-row: 1;
+    grid-column: 2/3;
   }
-  .skills-link{
-    grid-row:1;
-    grid-column:3/4;
+  .skills-link {
+    grid-row: 1;
+    grid-column: 3/4;
   }
- 
+
   .topnav a.icon {
     padding: 0.2em;
     grid-row: 1/3;
-    grid-column:1;
+    grid-column: 1;
     display: block;
   }
 
   .topnav.responsive {
-
     border: 1px solid red;
     background-color: #111927;
     width: 100%;
@@ -450,12 +459,15 @@ p {
     width: fit-content;
     background-color: none;
     border: none;
-    position:fixed;
-  
   }
   .topnav.responsive a {
     font-size: 0.8em;
-    
+
     display: block;
   }
+}
+.about-me-text {
+  grid-row: 5/9;
+  display: flex;
+  padding-right: 1em;
 }

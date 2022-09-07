@@ -409,11 +409,10 @@ p {
   display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 620px) {
   .topnav a {
     display: none;
     
-
   }
   .about-me-link{
     grid-row:1;
@@ -432,7 +431,7 @@ p {
   }
 
   .topnav.responsive {
-    position: fixed;
+
     border: 1px solid red;
     background-color: #111927;
     width: 100%;
@@ -451,6 +450,7 @@ p {
     width: fit-content;
     background-color: none;
     border: none;
+    position:fixed;
   
   }
   .topnav.responsive a {

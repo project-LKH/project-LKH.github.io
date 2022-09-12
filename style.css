@@ -467,6 +467,7 @@ p {
   }
 }
 .about-me-text {
+  width:fit-content;
   grid-row: 5/9;
   display: flex;
   padding-right: 1em;

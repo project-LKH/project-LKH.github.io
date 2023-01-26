@@ -4,9 +4,10 @@
 }
 
 .social_links {
-  grid-column: 1/-1;
-  grid-row: 8/9;
+  grid-column: 1;
+  grid-row: 8/11;
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
 }
 #github {
@@ -344,9 +345,12 @@ p {
 @media screen and (orientation: landscape) {
   .social_links {
     padding: 0.6em;
-    grid-column: 4/8;
-    grid-row: 5;
-    justify-content: space-between;
+    grid-column: 8/10;
+    grid-row: 2/8;
+    background-color: #111927;
+    border-radius: 25px;
+    margin: 1em;
+    justify-items: space-between;
   }
   #github,
   #linkdin {
@@ -415,8 +419,41 @@ p {
 }
 
 @media screen and (max-width: 620px) {
-  
-  
+  .social_links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: #111927;
+    grid-row: 10/11;
+    grid-column: 1/11;
+    font-size: 12px;
+    justify-content: center;
+  }
+  #github {
+    display:flex;
+    align-items: center;
+    grid-row: 1/3;
+    grid-column: 1;
+    flex-direction: column;
+    justify-content: center;
+    padding:0.1em;
+  }
+  #email {
+    display:flex;
+    align-items: center;
+    grid-row: 1/3;
+    grid-column: 2;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #linkdin {
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    flex-direction: column;
+    grid-row: 1/3;
+    grid-column: 3;
+  }
   .about-text {
     text-align: center;
   }
@@ -467,7 +504,7 @@ p {
   }
 }
 .about-me-text {
-  width:fit-content;
+  width: fit-content;
   grid-row: 5/9;
   display: flex;
   padding-right: 1em;

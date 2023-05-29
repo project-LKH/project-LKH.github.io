@@ -177,7 +177,7 @@ p {
   word-wrap: break-all;
 }
 .miniCard {
-  background: transparent;
+  /* background: transparent; */
   color: white;
   width: 100px;
   height: 150px;

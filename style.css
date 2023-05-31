@@ -46,6 +46,7 @@ body {
   text-align: center;
   text-shadow: 1px 1px 1px black;
   margin-bottom: 0.5em;
+  padding:.5em;
 }
 
 html {
@@ -432,6 +433,9 @@ p {
     justify-content: center;
     justify-items: center;
     align-items: center;
+  }
+  #resume{
+    padding:.2em;
   }
   #github {
     display: flex;

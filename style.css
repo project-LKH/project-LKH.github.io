@@ -356,7 +356,8 @@ p {
   #github,
   #linkdin,
   #email {
-    align-self: center;
+    align-self: left;
+    margin-left:1.5em
   }
   .construction {
     width: 200px;

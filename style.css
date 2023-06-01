@@ -153,7 +153,7 @@ section {
 }
 .about-me-card {
   height: fit-content;
-  max-height: 100%;
+  max-height: 120%;
 }
 .about-text {
  /* line-height:2; */
@@ -390,6 +390,9 @@ p {
     font-size: calc(15px + 1.5%);
     grid-row: 6/10;
     grid-column: 2/10;
+  }
+  .about-me-card{
+    max-height:125%
   }
 
   .about-img {

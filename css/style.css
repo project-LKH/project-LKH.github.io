@@ -156,7 +156,6 @@ section {
   max-height: 120%;
 }
 .about-text {
- /* line-height:2; */
   padding: 0 0.5em;
   align-self: center;
   color: white;
@@ -229,6 +228,7 @@ p {
 }
 
 .card-back {
+  padding:.65em;
   backdrop-filter: blur(14px) saturate(112%);
   -webkit-backdrop-filter: blur(14px) saturate(112%);
   background-color: rgba(17, 25, 40, 0.48);

@@ -91,7 +91,6 @@ nav {
   display: flex;
   border-radius: 20px;
   margin: 1em 1em 0 1em;
-
   justify-content: space-around;
   align-items: center;
 }
@@ -205,7 +204,7 @@ p {
 .card-description {
   width: 100%;
   height: 100%;
-  font-size: .55em;
+  font-size: 0.55em;
   grid-row: 4/-1;
   grid-column: 1/-1;
 }
@@ -344,7 +343,7 @@ p {
 }
 @media screen and (orientation: landscape) {
   .social_links {
-    width:200px;
+    width: 200px;
     padding: 0.6em;
     grid-column: 8/10;
     grid-row: 2/8;
@@ -365,13 +364,7 @@ p {
   .home-img {
     grid-column: 5/7;
   }
-  nav {
-    font-size: 1em;
-    width: 100%;
-    grid-column: 1/10;
-    margin-left: 1.7em;
-    border: 1px solid red;
-  }
+
   .heading {
     font-size: 3em;
   }
@@ -511,7 +504,7 @@ p {
     display: block;
   }
   .card-back {
-    padding:0;
+    padding: 0;
   }
 }
 .about-me-text {
@@ -521,22 +514,23 @@ p {
   padding-right: 1em;
 }
 @media screen and (min-width: 640px) and (max-width: 825px) {
-  .about-text{
+
+  .about-text {
     line-height: 100%;
   }
-  .miniCard{
-    width:200px;
+  .miniCard {
+    width: 200px;
   }
-  .card-description{
+  .card-description {
     font-size: 15px;
   }
-  .card-title{
+  .card-title {
     font-size: 19px;
   }
   .social_links {
-    width:100%;
+    width: 100%;
     border-radius: 0;
-    margin:0;
+    margin: 0;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -569,19 +563,18 @@ p {
     grid-row: 1/3;
   }
 }
-@media screen and (min-width: 570px) and (max-width:640px){
-  .miniCard{
-    width:175px;
+@media screen and (min-width: 570px) and (max-width: 640px) {
+  
+  .miniCard {
+    width: 175px;
   }
-  /* .card-description{
-    font-size: 15px;
-  } */
-  .card-title{
+
+  .card-title {
     font-size: 19px;
   }
   .social_links {
     border-radius: 0;
-    margin:0;
+    margin: 0;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -612,5 +605,18 @@ p {
     display: flex;
     flex-direction: column;
     grid-row: 1/3;
+  }
+}
+@media screen and (min-width: 620px) {
+  nav {
+    background-color: #111927;
+    border: 2px solid rgba(255, 0, 0, 0.774);
+    grid-column: 1/11;
+    font-size: 0.8em;
+    display: flex;
+    border-radius: 20px;
+    margin: 1em 1em 0 1em;
+    justify-content: space-around;
+    align-items: center;
   }
 }

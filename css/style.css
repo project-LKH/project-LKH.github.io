@@ -46,7 +46,7 @@ body {
   text-align: center;
   text-shadow: 1px 1px 1px black;
   margin-bottom: 0.5em;
-  padding:.5em;
+  padding: 0.5em;
 }
 
 html {
@@ -228,7 +228,7 @@ p {
 }
 
 .card-back {
-  padding:.65em;
+  padding: 0.65em;
   backdrop-filter: blur(14px) saturate(112%);
   -webkit-backdrop-filter: blur(14px) saturate(112%);
   background-color: rgba(17, 25, 40, 0.48);
@@ -357,7 +357,7 @@ p {
   #linkdin,
   #email {
     align-self: left;
-    margin-left:1.5em
+    margin-left: 1.5em;
   }
   .construction {
     width: 200px;
@@ -386,13 +386,13 @@ p {
     grid-column: 4/8;
   }
   .about-text {
-    line-height: 2;
+    line-height: 145%;
     font-size: calc(15px + 1.5%);
     grid-row: 6/10;
     grid-column: 2/10;
   }
-  .about-me-card{
-    max-height:125%
+  .about-me-card {
+    max-height: 125%;
   }
 
   .about-img {
@@ -438,8 +438,8 @@ p {
     justify-items: center;
     align-items: center;
   }
-  #resume{
-    padding:.2em;
+  #resume {
+    padding: 0.2em;
   }
   #github {
     display: flex;
@@ -516,4 +516,21 @@ p {
   grid-row: 5/9;
   display: flex;
   padding-right: 1em;
+}
+@media screen and (min-width: 640px) and (max-width: 825px) {
+  body {
+    background-color: black;
+  }
+  .about-text{
+    line-height: 100%;
+  }
+  .miniCard{
+    width:200px;
+  }
+  .card-description{
+    font-size: 15px;
+  }
+  .card-title{
+    font-size: 19px;
+  }
 }

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preload" href="./css/style.css" as="style" />
+    <link rel="preload" href="./scripts/script.js" as="script" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Gugi&family=Press+Start+2P&display=swap");
+    </style>
+    <script
+      src="https://kit.fontawesome.com/e48795e6bd.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./css/style.css"
+      type="text/css"
+      media="screen"
+    />
+    <title>L K Henry</title>
+  </head>
+  <body>
+    <header class="tengrid">
+      <nav class="topnav" id="myTopnav">
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"
+          ><i class="fa fa-bars fa-2x"></i
+        ></a>
+        <a href="#About-me" class="about-me-link">About Me</a>
+        <a href="#skills" class="skills-link">Skills</a>
+        <a href="#projects" class="projects-link">Projects</a>
+        <a href="#contact" class="contact-link">Contact</a>
+      </nav>
+      <img class="home-img" src="./images/sticker.webp" alt="" />
+      <h1 class="heading">L K Henry</h1>
+      <h2 class="sub-heading">Web Developer</h2>
+      <i
+        class="fa-solid fa-angles-up fa-2x"
+        id="topBtn"
+        onclick="topFunction()"
+      ></i>
+    </header>
+    <br />
+    <br />
+    <main>
+      <section class="tengrid" id="About-me">
+        <h2 class="title">About Me</h2>
+        <div class="bigCard tengrid form about-me-card">
+          <img src="./images/true-story.webp" class="about-img" alt="Me" />
+          <div class="about-me-text"></div>
+          <p class="about-text">
+            Hey! My name is Liam Henry, and I am presently pursuing a career as
+            a web developer with the skills required to create simple yet
+            creative and functional web pages, sites, and applications.
+            Currently based in Durban, South Africa, I spend most of my time
+            learning and growing as a developer.
+          </p>
+          <a
+            id="resume"
+            href="https://drive.google.com/file/d/1ELfv8G3Nh7FELW4lppIvyckqE8jSd9UW/view?usp=sharing"
+            target="_blank"
+            class="resume"
+            >Resume</a
+          >
+        </div>
+      </section>
+      <br />
+      <br />
+      <section class="tengrid" id="skills">
+        <h2 class="title">Skills</h2>
+        <div class="content-section">
+          <div class="miniCard">
+            <div class="card-inner">
+              <div class="card-front tengrid">
+                <h2 class="content-title title">HTML</h2>
+                <img src="./images/html-1.svg" class="language" alt="HTML" />
+              </div>
+              <div class="card-back tengrid">
+                <p class="card-title title">What is HTML and why is it used?</p>
+                <p class="card-description">
+                  HTML (Hypertext Markup Language) is a text-based approach to
+                  describing how content contained within an HTML file is
+                  structured.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="miniCard">
+            <div class="card-inner">
+              <div class="card-front tengrid">
+                <h2 class="content-title title">Javascript</h2>
+                <img
+                  src="./images/javascript-1.svg"
+                  class="language"
+                  alt="Javascript"
+                />
+              </div>
+              <div class="card-back tengrid">
+                <p class="card-title title">
+                  What is JavaScript and why it is used?
+                </p>
+                <p class="card-description">
+                  JavaScript is a text-based programming language used both on
+                  the client-side and server-side that allows you to make web
+                  pages interactive.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="miniCard">
+            <div class="card-inner">
+              <div class="card-front tengrid">
+                <h2 class="content-title title">CSS</h2>
+                <img src="./images/css-3.svg" class="language" alt="CSS" />
+              </div>
+              <div class="card-back tengrid">
+                <p class="card-title title">What is CSS and why is it used?</p>
+                <p class="card-description">
+                  CSS stands for Cascading Style Sheets and is used to add style
+                  to a web page by dictating how a site is displayed on a
+                  browser.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <br />
+      <br />
+      <section class="tengrid" id="projects">
+        <h2 class="title">Projects</h2>
+        <div class="content-section">
+          <div class="miniCard tengrid">
+            <a class="tik-tak-toe-link" href="./tiktaktoe.html" target="_blank"
+              ><img
+                class="tik-tak-toe"
+                src="./images/tik-tak-toe.webp"
+                alt="tik-tak-toe"
+            /></a>
+          </div>
+          <div class="miniCard"><h2 class="content-title">coming-soon</h2></div>
+          <div class="miniCard"><h2 class="content-title">coming-soon</h2></div>
+        </div>
+      </section>
+      <br />
+      <br />
+    </main>
+    <footer>
+      <section class="tengrid" id="contact">
+        <h2 class="title">Contact</h2>
+        <form
+          class="bigCard form flex"
+          action="https://formsubmit.co/projectlkh63@gmail.com"
+          method="POST"
+        >
+          <input type="hidden" name="_captcha" value="false" />
+          <input
+            type="text"
+            name="name"
+            placeholder=" Name"
+            id="contact-name"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder=" Email"
+            id="contact-email"
+            required
+          />
+          <input
+            type="text"
+            name="subject"
+            placeholder=" subject"
+            id="contact-subject"
+            required
+          />
+          <textarea
+            name="Message"
+            placeholder=" Message"
+            id="contact-message"
+            required
+          ></textarea>
+          <button type="submit" id="contact-submit">Send</button>
+        </form>
+        <div class="social_links">
+          <a href="https://github.com/project-LKH" id="github" target="_blank"
+            ><i class="fa-brands fa-github-square fa-2x"></i> GitHub</a
+          >
+          <a
+            href="https://www.linkedin.com/in/liam-henry-105a13249"
+            target="_blank"
+            id="linkdin"
+            ><i class="fa-brands fa-linkedin fa-2x"></i> LinkedIn</a
+          >
+          <a href="mailto:projectlkh@gmail.com" target="_blank" id="email"
+            ><i class="fa-regular fa-envelope fa-2x"></i> Email</a
+          >
+        </div>
+      </section>
+    </footer>
+    <script src="./scripts/script.js" defer></script>
+  </body>
+</html>

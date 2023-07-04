@@ -1,34 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="preload" href="./css/style.css" as="style" />
-    <link rel="preload" href="./src/script.js" as="script" />
+    <link rel="preload" href="./css/style.css" as="style">
+    <link rel="preload" href="./src/script.js" as="script">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    >
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <link
       rel="stylesheet"
       href="./css/style.css"
       type="text/css"
       media="screen"
-    />
+    >
     <script
       src="https://kit.fontawesome.com/e48795e6bd.js"
       crossorigin="anonymous"
     ></script>
     <title>L K HENRY</title>
   </head>
-  <div class="desktop-nav">
-    <a href="#Home">Home</a>
-    <a href="#about">About me</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-  </div>
   <body>
+    <div class="desktop-nav">
+      <a href="#Home">Home</a>
+      <a href="#about">About me</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <a
+        id="resume"
+        href="https://drive.google.com/file/d/1ELfv8G3Nh7FELW4lppIvyckqE8jSd9UW/view?usp=sharing"
+        target="_blank"
+        class="resume"
+        >View Resume</a
+      >
+    </div>
     <header>
       <a
         href="javascript:void(0);"
@@ -43,10 +50,18 @@
         <a href="#skills" onclick="toggleNav()">Skills</a>
         <a href="#projects" onclick="toggleNav()">Projects</a>
         <a href="#contact" onclick="toggleNav()">Contact</a>
+        <a
+          id="resume"
+          href="https://drive.google.com/file/d/1ELfv8G3Nh7FELW4lppIvyckqE8jSd9UW/view?usp=sharing"
+          target="_blank"
+          class="resume"
+          onclick="toggleNav()"
+          >Resume</a
+        >
       </nav>
       <section id="Home" class="header-content">
-        <h1 class="heading">L K HENRY</h1>
-        <img src="./images/sticker.webp" alt="" />
+        <h2 class="heading">L K HENRY</h2>
+        <img src="./images/sticker.webp" alt="" >
         <p>web developer</p>
       </section>
       <!-- <i
@@ -56,11 +71,10 @@
       ></i> -->
     </header>
     <main>
-      <container>
         <section class="main-content" id="about">
-          <div class="section-title"><h1>About me</h1></div>
+          <div class="section-title"><h2>About me</h2></div>
           <div class="card">
-            <img class="about-me-img" src="./images/true-story.webp" alt="" />
+            <img class="about-me-img" src="./images/true-story.webp" alt="" >
             <p>
               Hey! My name is Liam Henry, and I am presently pursuing a career
               as a web developer with the skills required to create simple yet
@@ -72,7 +86,7 @@
           <div class="content-section"></div>
         </section>
         <section id="skills" class="main-content">
-          <div class="section-title"><h1>Skills</h1></div>
+          <div class="section-title"><h2>Skills</h2></div>
           <div class="content-section">
             <div class="skill-card">
               <p class="html">
@@ -103,7 +117,7 @@
           </div>
         </section>
         <section id="projects" class="main-content">
-          <div class="section-title"><h1>Projects</h1></div>
+          <div class="section-title"><h2>Projects</h2></div>
           <div class="content-section">
             <div class="project-card">
               <a
@@ -114,42 +128,41 @@
                   class="tik-tak-toe"
                   src="./images/tik-tak-toe.webp"
                   alt="tik-tak-toe"
-              /></a>
+              ></a>
             </div>
           </div>
         </section>
-      </container>
     </main>
     <footer id="contact" class="main-content">
-      <h1 class="section-title">Contact</h1>
+      <h2 class="section-title">Contact</h2>
       <div class="content-section contact">
         <form
           class="form"
           action="https://formsubmit.co/projectlkh63@gmail.com"
           method="POST"
         >
-          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_captcha" value="false" >
           <input
             type="text"
             name="name"
             placeholder=" Name"
             id="contact-name"
             required
-          />
+          >
           <input
             type="email"
             name="email"
             placeholder=" Email"
             id="contact-email"
             required
-          />
+          >
           <input
             type="text"
             name="subject"
             placeholder=" subject"
             id="contact-subject"
             required
-          />
+          >
           <textarea
             name="Message"
             placeholder=" Message"
@@ -157,7 +170,18 @@
             required
           ></textarea>
           <button type="submit" id="contact-submit">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path fill="currentColor" d="M5 13c0-5.088 2.903-9.436 7-11.182C16.097 3.564 19 7.912 19 13c0 .823-.076 1.626-.22 2.403l1.94 1.832a.5.5 0 0 1 .095.603l-2.495 4.575a.5.5 0 0 1-.793.114l-2.234-2.234a1 1 0 0 0-.707-.293H9.414a1 1 0 0 0-.707.293l-2.234 2.234a.5.5 0 0 1-.793-.114l-2.495-4.575a.5.5 0 0 1 .095-.603l1.94-1.832C5.077 14.626 5 13.823 5 13zm1.476 6.696l.817-.817A3 3 0 0 1 9.414 18h5.172a3 3 0 0 1 2.121.879l.817.817.982-1.8-1.1-1.04a2 2 0 0 1-.593-1.82c.124-.664.187-1.345.187-2.036 0-3.87-1.995-7.3-5-8.96C8.995 5.7 7 9.13 7 13c0 .691.063 1.372.187 2.037a2 2 0 0 1-.593 1.82l-1.1 1.039.982 1.8zM12 13a2 2 0 1 1 0-4 2 2 0 0 1 0 4z"></path></svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="24"
+              height="24"
+            >
+              <path fill="none" d="M0 0h24v24H0z"></path>
+              <path
+                fill="currentColor"
+                d="M5 13c0-5.088 2.903-9.436 7-11.182C16.097 3.564 19 7.912 19 13c0 .823-.076 1.626-.22 2.403l1.94 1.832a.5.5 0 0 1 .095.603l-2.495 4.575a.5.5 0 0 1-.793.114l-2.234-2.234a1 1 0 0 0-.707-.293H9.414a1 1 0 0 0-.707.293l-2.234 2.234a.5.5 0 0 1-.793-.114l-2.495-4.575a.5.5 0 0 1 .095-.603l1.94-1.832C5.077 14.626 5 13.823 5 13zm1.476 6.696l.817-.817A3 3 0 0 1 9.414 18h5.172a3 3 0 0 1 2.121.879l.817.817.982-1.8-1.1-1.04a2 2 0 0 1-.593-1.82c.124-.664.187-1.345.187-2.036 0-3.87-1.995-7.3-5-8.96C8.995 5.7 7 9.13 7 13c0 .691.063 1.372.187 2.037a2 2 0 0 1-.593 1.82l-1.1 1.039.982 1.8zM12 13a2 2 0 1 1 0-4 2 2 0 0 1 0 4z"
+              ></path>
+            </svg>
             <span>Send</span>
           </button>
         </form>

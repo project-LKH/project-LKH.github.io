@@ -172,7 +172,10 @@ h2 {
     transform: rotate(360deg);
   }
 }
-
+.about-text{
+  text-align:center;
+  font-size:.75em;
+}
 .card::after {
   content: "";
   position: absolute;
@@ -229,7 +232,7 @@ h2 {
   text-shadow: 2px 2px 2px black;
 }
 .skill-card p span.skill-description {
-  font-size: 1.2em;
+  font-size: 0.8em;
   box-shadow: inset 0px 0px 10px black;
   text-shadow: 2px 2px 2px black;
   display: flex;
@@ -418,6 +421,7 @@ textarea:focus {
     border-radius: 16px;
   }
 
+
   button svg {
     margin-right: 3px;
     transform: rotate(30deg);
@@ -440,6 +444,18 @@ textarea:focus {
   .social {
     font-size: 1.5em;
   }
+  .words span {
+    font-size: 2.5rem;
+  }
+  .skill-card p span.skill-description {
+    font-size: 1.2em;
+  }
+}
+@media screen and (min-width:1024px) {
+  .about-text{
+    font-size:.8em;
+  }
+  
 }
 @media screen and (max-height: 520px) {
   #contact-submit {
@@ -456,7 +472,7 @@ textarea:focus {
 }
 
 .words span {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   display: inline-block;
   animation: move 3s ease forwards;
 }

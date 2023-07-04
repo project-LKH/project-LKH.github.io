@@ -1,14 +1,9 @@
-
-
 function toggleNav() {
   const nav = document.getElementById("nav-bar");
-  if (nav.style.display === "none") {
-    nav.style.display = "grid";
-  } else {
-    nav.style.display = "none";
-  }
+  nav.style.display === "none" || nav.style.display.length === 0
+    ? (nav.style.display = "grid")
+    : (nav.style.display = "none");
 }
-
 
 // const topBtn= document.getElementById("topBtn");
 // window.onscroll = function(){

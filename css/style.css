@@ -64,8 +64,9 @@ a {
   text-decoration: none;
   color: white;
 }
-a:hover,:focus{
-  color:red;
+a:hover,
+:focus {
+  color: red;
 }
 
 header {
@@ -93,6 +94,11 @@ img {
   width: 210px;
   height: 290px;
 }
+.about-me-img {
+  z-index: 2;
+  height: 90%;
+  width: 40%;
+}
 p {
   color: white;
 }
@@ -119,14 +125,14 @@ container {
   background: #07182e;
   position: relative;
   display: grid;
+  grid-template-rows: 50% 50%;
   place-content: center;
   place-items: center;
   overflow: hidden;
   border-radius: 20px;
 }
 
-.card h2,
-p {
+.card p {
   z-index: 1;
   color: white;
 }
@@ -295,5 +301,8 @@ form {
   main,
   footer {
     grid-column: 2/3;
+  }
+  .card{
+    grid-template-rows: 70% 30%;
   }
 }

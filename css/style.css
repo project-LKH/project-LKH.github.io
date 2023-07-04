@@ -93,12 +93,15 @@ header {
   color: white;
 }
 img {
-  transform:translateX(-100vw);
   align-self: center;
   justify-self: center;
   width: 210px;
   height: 290px;
+}
+.main-img{
+  transform:translateX(-100vw);
   animation:slide 3s ease-in forwards
+
 }
 @keyframes slide{
   100%{

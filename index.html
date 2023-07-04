@@ -15,8 +15,19 @@
       type="text/css"
       media="screen"
     />
+    <script
+      src="https://kit.fontawesome.com/e48795e6bd.js"
+      crossorigin="anonymous"
+    ></script>
     <title>L K HENRY</title>
   </head>
+  <div class="desktop-nav">
+    <a href="#Home">Home</a>
+    <a href="#about">About me</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
   <body>
     <header>
       <a
@@ -27,16 +38,22 @@
         ><i id="icon" class="fa fa-bars fa-2x"></i
       ></a>
       <nav class="nav-bar" id="nav-bar">
-        <a href="#about" onclick="toggleNav()">about me</a>
-        <a href="#skills" onclick="toggleNav()">skills</a>
-        <a href="#projects" onclick="toggleNav()">projects</a>
-        <a href="#contact" onclick="toggleNav()">contact</a>
+        <a href="#Home" onclick="toggleNav()">Home</a>
+        <a href="#about" onclick="toggleNav()">About me</a>
+        <a href="#skills" onclick="toggleNav()">Skills</a>
+        <a href="#projects" onclick="toggleNav()">Projects</a>
+        <a href="#contact" onclick="toggleNav()">Contact</a>
       </nav>
-      <section class="header-content">
+      <section id="Home" class="header-content">
         <h1 class="heading">L K HENRY</h1>
         <img src="./images/sticker.webp" alt="" />
         <p>web developer</p>
       </section>
+      <i
+        class="fa-solid fa-angles-up fa-2x"
+        id="topBtn"
+        onclick="topFunction()"
+      ></i>
     </header>
     <main>
       <container>
@@ -108,8 +125,69 @@
         </section>
       </container>
     </main>
-    <footer id="contact">
-      <h1>Contact</h1>
+    <footer id="contact" class="main-content">
+      <h1 class="section-title">Contact</h1>
+      <div class="content-section contact">
+        <form
+          class="form"
+          action="https://formsubmit.co/projectlkh63@gmail.com"
+          method="POST"
+        >
+          <input type="hidden" name="_captcha" value="false" />
+          <input
+            type="text"
+            name="name"
+            placeholder=" Name"
+            id="contact-name"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder=" Email"
+            id="contact-email"
+            required
+          />
+          <input
+            type="text"
+            name="subject"
+            placeholder=" subject"
+            id="contact-subject"
+            required
+          />
+          <textarea
+            name="Message"
+            placeholder=" Message"
+            id="contact-message"
+            required
+          >
+          </textarea>
+          <button type="submit" id="contact-submit">Send</button>
+        </form>
+        <div class="social-links">
+          <a
+            class="social"
+            href="https://github.com/project-LKH"
+            id="github"
+            target="_blank"
+            ><i class="fa-brands fa-github-square fa-2x"></i> GitHub</a
+          >
+          <a
+            class="social"
+            href="https://www.linkedin.com/in/liam-henry-105a13249"
+            target="_blank"
+            id="linkdin"
+            ><i class="fa-brands fa-linkedin fa-2x"></i> LinkedIn</a
+          >
+          <a
+            class="social"
+            href="mailto:projectlkh@gmail.com"
+            target="_blank"
+            id="email"
+            ><i class="fa-regular fa-envelope fa-2x"></i> Email</a
+          >
+        </div>
+      </div>
     </footer>
     <script src="./src/script.js" defer></script>
   </body>

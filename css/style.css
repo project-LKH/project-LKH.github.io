@@ -14,6 +14,7 @@ body {
 }
 
 html {
+  font-family: 'Lexend Tera', sans-serif;
   height: 500vh;
   scroll-behavior: smooth;
   background-color: #07182e;
@@ -58,6 +59,7 @@ nav {
   z-index: 99;
 } */
 a {
+ 
   text-shadow: 2px 2px 2px black;
   display: flex;
   align-items: center;
@@ -85,6 +87,8 @@ header {
     radial-gradient(at 100% 100%, #07182e 0, transparent 55%);
 }
 .heading {
+  font-family: 'Foldit', cursive;
+  font-size:3em;
   display: grid;
   align-items: end;
   color: white;
@@ -100,6 +104,7 @@ img {
   height: 90%;
   width: 40%;
 }
+
 p {
   text-shadow: 2px 2px 2px black;
   color: white;
@@ -116,10 +121,15 @@ main {
   justify-items: center;
 }
 .section-title {
+  font-family: 'Foldit', cursive;
+  font-size:2em;
   text-shadow: 2px 2px 2px black;
   display: grid;
   justify-content: center;
   align-content: end;
+}
+.footer-title{
+font-size:3em;
 }
 .card {
   padding: 1em;
@@ -220,6 +230,7 @@ h2{
   text-shadow: 2px 2px 2px black;
 }
 .skill-card p span.skill-description {
+  font-size:1.2em;
   box-shadow: inset 0px 0px 10px black;
   text-shadow: 2px 2px 2px black;
   display: flex;
@@ -369,6 +380,8 @@ textarea:focus {
   }
 
   div.desktop-nav {
+     font-size: 2em;
+    font-family: 'Foldit', cursive;
     background-color: #07182e;
     display: grid;
     grid-column: 0/1;
@@ -422,6 +435,9 @@ textarea:focus {
 
   button:hover span {
     transform: translateX(7px);
+  }
+  .social{
+    font-size:1.5em;
   }
 }
 @media screen and (max-height: 520px) {

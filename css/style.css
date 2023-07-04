@@ -58,6 +58,7 @@ nav {
   z-index: 99;
 } */
 a {
+  text-shadow: 2px 2px 2px black;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -100,6 +101,7 @@ img {
   width: 40%;
 }
 p {
+  text-shadow: 2px 2px 2px black;
   color: white;
 }
 
@@ -114,6 +116,7 @@ main {
   justify-items: center;
 }
 .section-title {
+  text-shadow: 2px 2px 2px black;
   display: grid;
   justify-content: center;
   align-content: end;
@@ -130,6 +133,9 @@ main {
   place-items: center;
   overflow: hidden;
   border-radius: 20px;
+}
+h2{
+  text-shadow: 2px 2px 2px black;
 }
 
 .card p {
@@ -211,8 +217,11 @@ main {
   text-transform: uppercase;
   color: white;
   letter-spacing: 0.1em;
+  text-shadow: 2px 2px 2px black;
 }
 .skill-card p span.skill-description {
+  box-shadow: inset 0px 0px 10px black;
+  text-shadow: 2px 2px 2px black;
   display: flex;
   align-items: center;
   height: 150px;

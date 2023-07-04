@@ -247,7 +247,7 @@ form {
   height: 50%;
   align-self: center;
   justify-self: center;
-  background-color: #040d1a;
+  background-color: #07182e;
   border: 2px solid red;
   display: flex;
   flex-direction: column;
@@ -256,7 +256,7 @@ form {
   border-radius: 15px;
 }
 .social-links {
-  background-color: #040d1a;
+  background-color: #07182e;
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -265,10 +265,15 @@ form {
   padding-left: 0.25em;
 }
 .social {
+  color:white;
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: space-between;
   align-content: center;
+}
+.social:hover{
+  color: red;
+  cursor: pointer;
 }
 /* } */
 @media screen and (min-width: 768px) {

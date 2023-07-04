@@ -14,7 +14,7 @@ body {
 }
 
 html {
-  font-family: 'Lexend Tera', sans-serif;
+  font-family: "Lexend Tera", sans-serif;
   height: 500vh;
   scroll-behavior: smooth;
   background-color: #07182e;
@@ -59,7 +59,6 @@ nav {
   z-index: 99;
 } */
 a {
- 
   text-shadow: 2px 2px 2px black;
   display: flex;
   align-items: center;
@@ -87,8 +86,8 @@ header {
     radial-gradient(at 100% 100%, #07182e 0, transparent 55%);
 }
 .heading {
-  font-family: 'Foldit', cursive;
-  font-size:3em;
+  font-family: "Foldit", cursive;
+  font-size: 3em;
   display: grid;
   align-items: end;
   color: white;
@@ -121,15 +120,15 @@ main {
   justify-items: center;
 }
 .section-title {
-  font-family: 'Foldit', cursive;
-  font-size:2em;
+  font-family: "Foldit", cursive;
+  font-size: 2em;
   text-shadow: 2px 2px 2px black;
   display: grid;
   justify-content: center;
   align-content: end;
 }
-.footer-title{
-font-size:3em;
+.footer-title {
+  font-size: 3em;
 }
 .card {
   padding: 1em;
@@ -144,7 +143,7 @@ font-size:3em;
   overflow: hidden;
   border-radius: 20px;
 }
-h2{
+h2 {
   text-shadow: 2px 2px 2px black;
 }
 
@@ -230,7 +229,7 @@ h2{
   text-shadow: 2px 2px 2px black;
 }
 .skill-card p span.skill-description {
-  font-size:1.2em;
+  font-size: 1.2em;
   box-shadow: inset 0px 0px 10px black;
   text-shadow: 2px 2px 2px black;
   display: flex;
@@ -339,7 +338,7 @@ input:focus {
 input::placeholder {
   text-align: center;
   text-justify: center;
-  font-family: 'Lexend Tera', sans-serif;
+  font-family: "Lexend Tera", sans-serif;
 }
 input:focus::placeholder {
   color: transparent;
@@ -351,7 +350,7 @@ textarea {
   border-radius: 15px;
 }
 textarea::placeholder {
-  font-family: 'Lexend Tera', sans-serif;
+  font-family: "Lexend Tera", sans-serif;
   font-size: 15px;
   text-align: center;
   text-justify: center;
@@ -364,16 +363,17 @@ textarea:focus {
   padding: 10px 10px;
 }
 @media screen and (min-width: 768px) {
-  nav{
-    display:none;
+  nav {
+    display: none;
   }
-  #resume,.desktop-nav a:hover{
+  #resume,
+  .desktop-nav a:hover {
     box-shadow: inset 1px 1px 10px black;
-    margin:.3em;
+    margin: 0.3em;
     background-color: rgba(128, 128, 128, 0.075);
   }
-  textarea{
-    padding-top:.4em;
+  textarea {
+    padding-top: 0.4em;
   }
   body {
     display: grid;
@@ -381,8 +381,8 @@ textarea:focus {
   }
 
   div.desktop-nav {
-     font-size: 2em;
-    font-family: 'Foldit', cursive;
+    font-size: 2em;
+    font-family: "Foldit", cursive;
     background-color: #07182e;
     display: grid;
     grid-column: 0/1;
@@ -437,8 +437,8 @@ textarea:focus {
   button:hover span {
     transform: translateX(7px);
   }
-  .social{
-    font-size:1.5em;
+  .social {
+    font-size: 1.5em;
   }
 }
 @media screen and (max-height: 520px) {
@@ -449,8 +449,8 @@ textarea:focus {
     display: none;
   }
 }
-.words{
-  color: #ffffff00 ;
+.words {
+  color: #ffffff00;
   font-size: 0;
   line-height: 1.5;
 }
@@ -458,7 +458,7 @@ textarea:focus {
 .words span {
   font-size: 2.5rem;
   display: inline-block;
-  animation: move 1s ease forwards;
+  animation: move 3s ease forwards;
 }
 
 @keyframes move {
@@ -467,9 +467,8 @@ textarea:focus {
   }
   100% {
     text-shadow: 0 25px 50px rgba(0, 0, 0, 0.75);
-    color :#ffffff ;
+    color: #ffffff;
   }
-  
 }
 
 .words span:nth-child(2) {
@@ -477,11 +476,11 @@ textarea:focus {
 }
 
 .words span:nth-child(3) {
-  animation-delay: .4s;
+  animation-delay: 0.4s;
 }
 
 .words span:nth-child(4) {
-  animation-delay: .5s;
+  animation-delay: 0.5s;
 }
 
 .words span:nth-child(5) {

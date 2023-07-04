@@ -389,7 +389,9 @@ textarea:focus {
   }
 
   button span {
-    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
   }
   button:hover svg {

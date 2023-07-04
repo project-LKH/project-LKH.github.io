@@ -306,9 +306,13 @@ form {
 .social {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  justify-content: space-between;
   align-content: center;
 }
+i{
+  justify-self:end;
+  padding-right:.2em;
+}
+
 #contact-submit {
   cursor: pointer;
   align-self: center;
@@ -445,6 +449,11 @@ textarea:focus {
   nav {
     display: none;
   }
+  i{
+  padding-right:.4em;
+  align-self:center;
+  justify-self:end;
+}
   #resume,
   .desktop-nav a:hover {
     box-shadow: inset 1px 1px 10px black;

@@ -324,6 +324,7 @@ input:focus::placeholder {
   color: transparent;
 }
 textarea {
+  min-height: 1.1em;
   caret-color: black;
   border: 2px solid red;
   border-radius: 15px;
@@ -365,7 +366,7 @@ textarea:focus {
   .card {
     grid-template-rows: 70% 30%;
   }
-  button {
+  #contact-submit {
     align-self: center;
     justify-self: center;
     display: flex;
@@ -400,5 +401,13 @@ textarea:focus {
 
   button:hover span {
     transform: translateX(7px);
+  }
+}
+@media screen and (max-height: 520px) {
+  #contact-submit {
+    height: 20px;
+  }
+  button svg {
+    display: none;
   }
 }

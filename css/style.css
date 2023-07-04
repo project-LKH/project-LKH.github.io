@@ -100,7 +100,7 @@ img {
 }
 .main-img{
   transform:translateX(-80vw);
-  animation:slide 2s ease-in forwards
+  animation:slide 2s linear forwards
 
 }
 @keyframes slide{
@@ -372,6 +372,7 @@ textarea:focus::placeholder {
   color: transparent;
 }
 textarea:focus {
+  color:black;
   scale: 1.1;
   padding: 10px 10px;
 }

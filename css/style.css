@@ -93,13 +93,20 @@ header {
   color: white;
 }
 img {
+  transform:translateX(-100vw);
   align-self: center;
   justify-self: center;
   width: 210px;
   height: 290px;
+  animation:slide 3s ease-in forwards
+}
+@keyframes slide{
+  100%{
+    transform: translateX(0);
+  }
 }
 .about-me-img {
-  z-index: 2;
+  z-index: 1;
   height: 90%;
   width: 40%;
 }
@@ -449,6 +456,7 @@ textarea:focus {
   }
 
   div.desktop-nav {
+    z-index:5;
     font-size: 2em;
     font-family: "Foldit", cursive;
     background-color: #07182e;

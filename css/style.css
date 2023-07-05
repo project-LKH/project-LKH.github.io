@@ -388,6 +388,7 @@ textarea:focus {
   scale: 1.1;
   padding: 10px 10px;
 }
+
 .words {
   color: #ffffff00;
   font-size: 0;
@@ -569,11 +570,10 @@ textarea:focus {
     justify-self: center;
   }
   a.social {
-    gap:1em;
-    
+    gap: 1em;
   }
-  form{
-    width:40%;
+  form {
+    width: 40%;
   }
 
   .social-links {
@@ -581,5 +581,15 @@ textarea:focus {
   }
   .skill-card {
     height: 80%;
+  }
+}
+@media screen and (max-width: 650px) {
+  input:focus {
+    font-size: 0.7em;
+    scale: 1.3;
+  }
+  textarea:focus {
+    font-size: 0.6em;
+    scale: 1.3;
   }
 }

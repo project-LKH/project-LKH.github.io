@@ -100,9 +100,18 @@ img {
 }
 .main-img {
   transform: translateX(-80vw);
-  animation: slide 2s linear forwards;
+  animation: slide 2s ease-in-out forwards;
 }
 @keyframes slide {
+  62% {
+    transform: rotate(20deg);
+  }
+  85% {
+    transform: rotate(0);
+  }
+  99% {
+    transform: translateX(5);
+  }
   100% {
     transform: translateX(0);
   }
@@ -298,24 +307,18 @@ form {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 1em;
+  gap: 0.5em;
   justify-items: center;
   padding-left: 0.25em;
 }
 .social {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 5fr;
   align-content: center;
 }
 i {
   justify-self: end;
   padding-right: 0.2em;
-}
-@media screen and (min-width: 768px) and (max-width: 972px) {
-  .social-links {
-    font-size:  .6em;
-    
-  }
 }
 
 #contact-submit {
@@ -552,5 +555,31 @@ textarea:focus {
   }
   button svg {
     display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 972px) {
+  .social-links {
+    font-size: 0.6em;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  i {
+    justify-self: center;
+  }
+  a.social {
+    gap:1em;
+    
+  }
+  form{
+    width:40%;
+  }
+
+  .social-links {
+    font-size: 0.7em;
+  }
+  .skill-card {
+    height: 80%;
   }
 }

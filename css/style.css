@@ -192,7 +192,7 @@ h2 {
 }
 .about-text {
   text-align: center;
-  font-size: 1em;
+  font-size: .75em;
 }
 .card::after {
   content: "";
@@ -456,7 +456,7 @@ textarea:focus {
 
 @media screen and (min-width: 768px) {
   .about-text{
-    font-size: 1em;
+    font-size: .75em;
   }
   nav {
     display: none;
@@ -550,7 +550,7 @@ textarea:focus {
 }
 @media screen and (min-width: 1024px) {
   .about-text {
-    font-size: 1.1em;
+    font-size: 1em;
   }
   .social-links{
     font-size: 1em;

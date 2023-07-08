@@ -254,10 +254,10 @@ h2 {
   grid-template-rows: 20% 80%;
   flex: 15;
 }
-.skill-img {
+/* .skill-img {
   max-height: fit-content;
   background-image: url("../images/html-1.svg");
-}
+} */
 .skill-card p span.skill-title {
   display: flex;
   align-items: end;

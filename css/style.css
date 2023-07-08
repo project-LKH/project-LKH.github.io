@@ -568,9 +568,9 @@ textarea:focus {
   .skill-card p span.skill-description {
     font-size: 1.2em;
   }
-}
-.skill-card p:hover{
-  background-color: #07182e7c;
+  .skill-card p:hover{
+    background-color: #07182e7c;
+  }
 }
 @media screen and (min-width: 1024px) {
   .about-text {
@@ -634,13 +634,6 @@ textarea:focus {
 }
 @media screen and (max-width: 768px) {
   .space {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    left:-150px;
-  }
-  #space{
-    align-self: center;
-    justify-self: center;
+    display: none;
   }
 }
